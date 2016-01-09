@@ -31,7 +31,7 @@ import { Router, Route } from 'react-router';
 import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import FontFaceObserver from 'fontfaceobserver';
-import createHistory from 'history/lib/createBrowserHistory';
+import createHistory from 'history/lib/createHashHistory';
 
 // Observer loading of Open Sans (to remove open sans, remove the <link> tag in the index.html file and this observer)
 const openSansObserver = new FontFaceObserver('Open Sans', {});
@@ -70,10 +70,10 @@ if (module.hot) {
 // which are all wrapped in the App component, which contains the navigation etc
 ReactDOM.render(
   <Provider store={store}>
-    <Router history={createHistory()}>
+    <Router history={createHistory({queryKey: false})}>
       <Route component={App}>
         <Route path="/" component={HomePage} />
-        <Route path="/readme" component={ReadmePage} />
+        <Route path="readme" component={ReadmePage} />
         <Route path="*" component={NotFoundPage} />
       </Route>
     </Router>
