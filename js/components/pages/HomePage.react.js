@@ -7,6 +7,7 @@ import { asyncChangeProjectName, asyncChangeOwnerName } from '../../actions/AppA
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
+import SocialBtns from 'components/SocialBtns.react'
 
 class HomePage extends Component {
   render() {
@@ -15,6 +16,7 @@ class HomePage extends Component {
     return (
       <div className='HomePage'>
         <div className='HomePage__content'>
+          <SocialBtns/>
           <label className='home__label'>
             Change to your project name:
             <input
