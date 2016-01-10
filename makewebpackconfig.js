@@ -109,6 +109,9 @@ module.exports = function(options) {
     },
     target: "web", // Make web variables accessible to webpack, e.g. window
     stats: false, // Don't show stats in the console
-    progress: true
+    progress: true,
+    resolve: {
+      root: path.resolve(__dirname, 'js'),
+    }
   }
 }
