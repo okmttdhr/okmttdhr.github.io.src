@@ -32,7 +32,7 @@ class HomePage extends Component {
             defaultValue="mxstbr"
             value={ownerName} />
         </label>
-        <Link className="btn" to="/readme">Setup</Link>
+        <Link className="btn" to="about">Setup</Link>
       </div>
     );
   }
