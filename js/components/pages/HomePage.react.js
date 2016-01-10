@@ -17,25 +17,7 @@ class HomePage extends Component {
       <div className='HomePage'>
         <div className='HomePage__content'>
           <SocialBtns/>
-          <label className='home__label'>
-            Change to your project name:
-            <input
-              className='home__input'
-              type='text'
-              onChange={(evt) => { dispatch(asyncChangeProjectName(evt.target.value)); }}
-              defaultValue='React.js Boilerplate'
-              value={projectName} />
-          </label>
-          <label className='home__label'>
-            Change to your name:
-            <input
-              className='home__input'
-              type='text'
-              onChange={(evt) => { dispatch(asyncChangeOwnerName(evt.target.value)); }}
-              defaultValue='mxstbr'
-              value={ownerName} />
-          </label>
-          <Link className='btn' to='about'>Setup</Link>
+          <Link className='' to='about'>>>about</Link>
         </div>
       </div>
     );

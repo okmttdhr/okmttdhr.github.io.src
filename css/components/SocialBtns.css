@@ -7,28 +7,27 @@
   width: 20px;
   height: 20px;
   transition: transform .2s;
-  &:hover {
-    transform: scale(1.5, 1.5);
-  }
 }
 
-.SocialBtns__btn {
-  .SocialBtns__btn--fb {
-    background-color: #3B5998;
-  }
-  .SocialBtns__btn--tw {
-    background-color: #00ACEE;
-  }
-  .SocialBtns__btn--gh {
-    background-color: #000;
-  }
-  .SocialBtns__btn--gp {
-    background-color: #DD4B39;
-  }
-  .SocialBtns__btn--qt {
-    background-color: #59bb0c;
-  }
-  .SocialBtns__btn--mmm {
-    background-color: #0887BF;
-  }
+.SocialBtns__btn:hover {
+  transform: scale(1.5, 1.5);
+}
+
+.SocialBtns__btn.SocialBtns__btn--fb {
+  background-color: #3B5998;
+}
+.SocialBtns__btn.SocialBtns__btn--tw {
+  background-color: #00ACEE;
+}
+.SocialBtns__btn.SocialBtns__btn--gh {
+  background-color: #000;
+}
+.SocialBtns__btn.SocialBtns__btn--gp {
+  background-color: #DD4B39;
+}
+.SocialBtns__btn.SocialBtns__btn--qt {
+  background-color: #59bb0c;
+}
+.SocialBtns__btn.SocialBtns__btn--mmm {
+  background-color: #0887BF;
 }
