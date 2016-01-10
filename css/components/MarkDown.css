@@ -20,9 +20,16 @@
 
 .MarkDown pre code {
   display: inline-block;
+  width: 100%;
   font-size: $text-size-markdown;
   background-color: #23241f;
   color: #f8f8f2;
   padding: 10px;
   line-height: $line-height-markdown;
+}
+
+@media screen and (max-width: 768px) {
+  .MarkDown pre code {
+    width: auto;
+  }
 }
