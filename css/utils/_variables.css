@@ -4,10 +4,14 @@ $text-font-stack: 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial'
 $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace;
 
 $text-color: #222;
+$text-color-markdown: #666;
 $brand-color: #087B98;
 $light-brand-color: #3C93A9;
 $light-grey: #EDEDED;
 $mid-grey: #999;
 $dark-grey: #444;
+
+$text-size-markdown: 14px;
+$line-height-markdown: 1.5;
 
 $max-width: 968px;

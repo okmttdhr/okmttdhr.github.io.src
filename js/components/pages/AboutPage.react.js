@@ -6,19 +6,15 @@
 
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import marked from 'marked';
 import utilsMarkdown from 'utils/markdown';
+import MarkDown from 'components/MarkDown.react';
 
 export default class AboutPage extends Component {
-  componentDidMount() {
-    document.getElementsByClassName('marked_test')[0].innerHTML = marked(utilsMarkdown.howIBecomeDevelopper);
-  }
-
   render() {
     return (
       <div className='AboutPage'>
         <div className='AboutPage__content'>
-          <div className='marked_test'></div>
+          <MarkDown value={utilsMarkdown.howIBecomeDevelopper} />
         </div>
         <Link className="btn" to="/">Home</Link>
       </div>

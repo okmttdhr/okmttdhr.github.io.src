@@ -1,0 +1,21 @@
+/*@import '../utils/_variables.css';*/
+
+.MarkDown {
+  color: $text-color-markdown;
+}
+
+.MarkDown p {
+  font-size: $text-size-markdown;
+  line-height: $line-height-markdown;
+}
+
+.MarkDown h2 {}
+
+.MarkDown code {
+  display: block;
+  font-size: $text-size-markdown;
+  background-color: #23241f;
+  color: #f8f8f2;
+  padding: 10px;
+  line-height: $line-height-markdown;
+}
