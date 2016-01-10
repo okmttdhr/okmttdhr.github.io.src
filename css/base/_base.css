@@ -90,3 +90,13 @@ body.js-open-sans-loaded {
 .mrl-30, .ml-30 {
   margin-left: 30px;
 }
+
+/* (現状)ページ下部にある、他ページヘのリンク */
+.linkToPage {
+  color: $text-color-markdown;
+  text-decoration: initial;
+}
+
+.linkToPage:hover {
+  text-decoration: underline;
+}
