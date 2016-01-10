@@ -6,12 +6,27 @@
 
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import marked from 'marked';
 
 export default class AboutPage extends Component {
+  renderMarkdown() {
+    // document.getElementsByClassName('marked_test')[0].innerHTML = marked('I am using __markdown__.');
+    // console.log(marked('I am using __markdown__.'));
+  }
+
+  componentDidMount() {
+    document.getElementsByClassName('marked_test')[0].innerHTML = marked('I am using __markdown__.');    
+  }
+
   render() {
+    // setTimeout(function() {
+    //   document.getElementsByClassName('marked_test')[0].innerHTML = marked('I am using __markdown__.');
+    //   console.log(marked('I am using __markdown__.'));
+    // }, 3000)
     return (
       <div className='AboutPage'>
         <div className='AboutPage__content'>
+          <div className='marked_test'></div>
           僕は、国際基督教大学（ICU）を2年時の終わりに休学、その後退学し、現在はWebエンジニアをしている。今回は、僕が大学をやめてからWebエンジニアになるまでの道のりを書いておこうと思う。
           <h4>冬になると死にたくなる</h4>
           大学2年時の冬、僕の精神はひどい状態だった。毎日「死にたい」と考えていたと思う。僕はもともと、冬になると気分が重くなったり、性格が変わってしまうようなことが昔からあった。医師に診断をされたりしても、自分の中では「冬になると性格変わるなんて、漫画じゃないんだから」と思っていた。しかし、2011-2012の冬、いろいろなことが祟（たた）って、意志の力ではどうにもならないほどに心を病んでしまった。「冬季うつ病」を認識した時だった。
