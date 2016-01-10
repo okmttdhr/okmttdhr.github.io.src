@@ -15,8 +15,8 @@ export default class AboutPage extends Component {
       <div className='AboutPage'>
         <div className='AboutPage__content'>
           <MarkDown value={utilsMarkdown.howIBecomeDevelopper} />
+          <Link className="btn" to="/">Home</Link>
         </div>
-        <Link className="btn" to="/">Home</Link>
       </div>
     );
   }

@@ -11,7 +11,14 @@
 
 .MarkDown h2 {}
 
-.MarkDown code {
+.MarkDown p code {
+  background: rgba(0,0,0,0.04);
+  padding: 0.2em 0.4em;
+  font-size: 98%;
+  border-radius: 3px;
+}
+
+.MarkDown pre code {
   display: block;
   font-size: $text-size-markdown;
   background-color: #23241f;
