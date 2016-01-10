@@ -19,7 +19,7 @@
 }
 
 .MarkDown pre code {
-  display: block;
+  display: inline-block;
   font-size: $text-size-markdown;
   background-color: #23241f;
   color: #f8f8f2;
