@@ -14,5 +14,5 @@
 
 
 ```bash
-npm run build && cd build && ga . && gcom 'update' && gp origin master
+npm run deploy
 ```

@@ -1,7 +1,20 @@
 {
-  "name": "reactjs-boilerplate",
+  "name": "okp-web",
   "version": "2.4.0",
-  "description": "Quick setup for new React.js applications featuring Redux, hot–reloading, PostCSS, react-router and Mocha.",
+  "description": "",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha --compilers js:babel-core/register --recursive",
+    "test:watch": "npm test -- --watch",
+    "start": "cross-env NODE_ENV=development node server.dev.js",
+    "build": "npm run test && cross-env NODE_ENV=production webpack --config webpack.prod.config.js --progress --colors -p",
+    "serve": "cross-env NODE_ENV=production node server.prod.js",
+    "deploy": "npm run build && cd build && git add . && git commit -m 'update' && git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/okmttdhr/okmttdhr.github.io.src.git"
+  },
   "dependencies": {
     "fontfaceobserver": "^1.5.1",
     "history": "1.17.0",
@@ -52,18 +65,6 @@
     "webpack": "^1.12.1",
     "webpack-dev-server": "^1.11.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mxstbr/react-boilerplate.git"
-  },
-  "scripts": {
-    "lint": "eslint .",
-    "test": "mocha --compilers js:babel-core/register --recursive",
-    "test:watch": "npm test -- --watch",
-    "start": "cross-env NODE_ENV=development node server.dev.js",
-    "build": "npm run test && cross-env NODE_ENV=production webpack --config webpack.prod.config.js --progress --colors -p",
-    "serve": "cross-env NODE_ENV=production node server.prod.js"
-  },
-  "author": "Max Stoiber",
+  "author": "okp",
   "license": "MIT"
 }
