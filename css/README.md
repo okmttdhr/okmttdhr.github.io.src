@@ -8,7 +8,7 @@ The boilerplate uses PostCSS, and includes a few plugins by default:
 
 * `postcss-import`: Inlines `@import`ed stylesheets to create one big stylesheet.
 
-* `postcss-simple-vars`: Makes it possible to use `$variables in your CSS.
+* `postcss-simple-vars`: Makes it possible to use `$variables` in your CSS.
 
 * `postcss-focus`: Adds a `:focus` selector to every `:hover`.
 

@@ -13,26 +13,28 @@ class HomePage extends Component {
     const dispatch = this.props.dispatch;
     const { projectName, ownerName } = this.props.data;
     return (
-      <div>
-        <label className="home__label">
-          Change to your project name:
-          <input
-            className="home__input"
-            type="text"
-            onChange={(evt) => { dispatch(asyncChangeProjectName(evt.target.value)); }}
-            defaultValue="React.js Boilerplate"
-            value={projectName} />
-        </label>
-        <label className="home__label">
-          Change to your name:
-          <input
-            className="home__input"
-            type="text"
-            onChange={(evt) => { dispatch(asyncChangeOwnerName(evt.target.value)); }}
-            defaultValue="mxstbr"
-            value={ownerName} />
-        </label>
-        <Link className="btn" to="about">Setup</Link>
+      <div className='HomePage'>
+        <div className='HomePage__content'>
+          <label className='home__label'>
+            Change to your project name:
+            <input
+              className='home__input'
+              type='text'
+              onChange={(evt) => { dispatch(asyncChangeProjectName(evt.target.value)); }}
+              defaultValue='React.js Boilerplate'
+              value={projectName} />
+          </label>
+          <label className='home__label'>
+            Change to your name:
+            <input
+              className='home__input'
+              type='text'
+              onChange={(evt) => { dispatch(asyncChangeOwnerName(evt.target.value)); }}
+              defaultValue='mxstbr'
+              value={ownerName} />
+          </label>
+          <Link className='btn' to='about'>Setup</Link>
+        </div>
       </div>
     );
   }
