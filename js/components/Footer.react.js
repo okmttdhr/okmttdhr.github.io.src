@@ -28,7 +28,7 @@ export default class Footer extends Component {
           this.links.map((link, index) => {
             if (link.to === this.props.router.location.pathname) return;
             return <p key={index}>
-              <Link className='linkToPage' to={link.to}>
+              <Link className='Footer__linkToPage' to={link.to}>
                 {link.label}
               </Link>
             </p>;

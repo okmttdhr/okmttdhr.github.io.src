@@ -91,16 +91,6 @@ body.js-open-sans-loaded {
   margin-left: 30px;
 }
 
-/* (現状)ページ下部にある、他ページヘのリンク */
-.linkToPage {
-  color: $text-color-markdown;
-  text-decoration: initial;
-}
-
-.linkToPage:hover {
-  text-decoration: underline;
-}
-
 /* いい感じの真ん中寄せのコンテント */
 .baseContent {
   margin: 0 15%;

@@ -1,3 +1,13 @@
 .Footer p {
-  margin: 10px 0;
+  margin: 5px 0;
+}
+
+.Footer__linkToPage {
+  color: $text-color-markdown;
+  text-decoration: initial;
+  font-size: 14px;
+}
+
+.Footer__linkToPage:hover {
+  text-decoration: underline;
 }
