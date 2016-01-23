@@ -4,12 +4,11 @@
  */
 
 import { combineReducers } from 'redux';
-import homeReducer from './homeReducer';
+import home from './homeReducer';
 import travels from './travels';
 
-// Replace line below once you have several reducers with
 const rootReducer = combineReducers({
-  home: homeReducer,
+  home,
   travels,
 })
 
