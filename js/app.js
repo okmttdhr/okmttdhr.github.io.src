@@ -30,6 +30,7 @@ import { Provider } from 'react-redux';
 import { Router, Route } from 'react-router';
 import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
+import { syncHistory } from 'redux-simple-router';
 import FontFaceObserver from 'fontfaceobserver';
 import createHistory from 'history/lib/createHashHistory';
 
@@ -53,10 +54,11 @@ import App from './components/App.react';
 // Import the CSS file, which HtmlWebpackPlugin transfers to the build folder
 import '../css/main.css';
 
-// Create the store with the redux-thunk middleware, which allows us
-// to do asynchronous things in the actions
+// Create the store with middleware
 import rootReducer from './reducers/rootReducer';
-const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
+const browserHistory = createHistory({queryKey: false});
+const reduxRouterMiddleware = syncHistory(browserHistory);
+const createStoreWithMiddleware = applyMiddleware(thunk, reduxRouterMiddleware)(createStore);
 const store = createStoreWithMiddleware(rootReducer);
 
 // Make reducers hot reloadable, see http://stackoverflow.com/questions/34243684/make-redux-reducers-and-other-non-components-hot-loadable
@@ -71,7 +73,7 @@ if (module.hot) {
 // which are all wrapped in the App component, which contains the navigation etc
 ReactDOM.render(
   <Provider store={store}>
-    <Router history={createHistory({queryKey: false})}>
+    <Router history={browserHistory}>
       <Route component={App}>
         <Route path="/" component={HomePage} />
         <Route path="about" component={AboutPage} />
