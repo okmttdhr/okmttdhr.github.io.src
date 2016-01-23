@@ -13,7 +13,7 @@ export default class AboutPage extends Component {
   render() {
     return (
       <div className='AboutPage'>
-        <div className='AboutPage__content'>
+        <div className='AboutPage__content baseContent'>
           <MarkDown value={utilsMarkdown.howIBecomeDevelopper} />
           <Link className='linkToPage' to='/'>>> home</Link>
         </div>

@@ -100,3 +100,14 @@ body.js-open-sans-loaded {
 .linkToPage:hover {
   text-decoration: underline;
 }
+
+/* いい感じの真ん中寄せのコンテント */
+.baseContent {
+  margin: 0 15%;
+}
+
+@media screen and (max-width: 768px) {
+  .baseContent {
+    margin: 0 5%;
+  }
+}

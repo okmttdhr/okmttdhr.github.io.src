@@ -21,7 +21,7 @@ class TravelPage extends Component {
   render() {
     return (
       <div className='TravelPage'>
-        <div className='TravelPage__content'>
+        <div className='TravelPage__content baseContent'>
           <p>
             {'I\'ve been to Australia, Brazil, Okinawa, Finland, Bali Island, Taiwan, Phuket, and Bangkok.'}
           </p>
@@ -34,7 +34,8 @@ class TravelPage extends Component {
                 selectPlace={this.props.selectPlace} />;
             })
           }
-          <Link className='linkToPage' to='/'>>> home</Link>
+          <p><Link className='linkToPage' to='/'>>> home</Link></p>
+          <p><Link className='linkToPage' to='about'>>> background</Link></p>
         </div>
       </div>
     );
