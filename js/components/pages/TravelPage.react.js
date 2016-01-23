@@ -34,8 +34,6 @@ class TravelPage extends Component {
                 selectPlace={this.props.selectPlace} />;
             })
           }
-          <p><Link className='linkToPage' to='/'>>> home</Link></p>
-          <p><Link className='linkToPage' to='about'>>> background</Link></p>
         </div>
       </div>
     );

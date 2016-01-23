@@ -12,10 +12,8 @@ class HomePage extends Component {
   render() {
     return (
       <div className='HomePage'>
-        <div className='HomePage__content'>
+        <div className='HomePage__content baseContent'>
           <SocialBtns/>
-          <p><Link className='linkToPage' to='travel'>>> traveling</Link></p>
-          <p><Link className='linkToPage' to='about'>>> background</Link></p>
         </div>
       </div>
     );
