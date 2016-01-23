@@ -75,7 +75,9 @@ ReactDOM.render(
       <Route component={App}>
         <Route path="/" component={HomePage} />
         <Route path="about" component={AboutPage} />
-        <Route path="travel" component={TravelPage} />
+        <Route path="travel" component={TravelPage}>
+          <Route path=":id" component={TravelPage} />
+        </Route>
         <Route path="*" component={NotFoundPage} />
       </Route>
     </Router>
