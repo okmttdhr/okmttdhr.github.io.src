@@ -74,8 +74,8 @@ ReactDOM.render(
     <Router history={createHistory({queryKey: false})}>
       <Route component={App}>
         <Route path="/" component={HomePage} />
-        <Route path="travel" component={TravelPage} />
         <Route path="about" component={AboutPage} />
+        <Route path="travel" component={TravelPage} />
         <Route path="*" component={NotFoundPage} />
       </Route>
     </Router>

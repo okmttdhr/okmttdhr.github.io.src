@@ -17,8 +17,8 @@ class HomePage extends Component {
       <div className='HomePage'>
         <div className='HomePage__content'>
           <SocialBtns/>
-          <p><Link className='linkToPage' to='about'>>> background</Link></p>
           <p><Link className='linkToPage' to='travel'>>> traveling</Link></p>
+          <p><Link className='linkToPage' to='about'>>> background</Link></p>
         </div>
       </div>
     );
