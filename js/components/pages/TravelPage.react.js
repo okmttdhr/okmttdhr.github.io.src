@@ -21,10 +21,27 @@ class TravelPage extends Component {
   }
 
   render() {
+    let pictures = []
+    this.props.travels.places.map((place, index) => {
+      Array.prototype.push.apply(pictures, place.pictures);
+    })
     return (
       <div className='TravelPage'>
         <div className='TravelPage__content baseContent'>
           <MarkDown value={utilsMarkdown.whereIveBeenTo} />
+          {
+            pictures.map((pic, index) => {
+              return (<div key={index}>
+                <a href={pic.link} target='_blank' />
+                <img src={require('images/' + pic.src)} />
+              </div>);
+            })
+          }
+          {
+            // this.props.travels.places[1].pictures.map((pic, index) => {
+            //   return (<a href={pic.link} target='_blank'><img src={require('images/' + pic.src)} /></a>);
+            // })
+          }
           {/*this.props.travels.selectedPlace*/}
           {
             // this.props.travels.places.map((place, index) => {
