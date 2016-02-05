@@ -28,6 +28,7 @@ class TravelPage extends Component {
     return (
       <div className='TravelPage'>
         <div className='TravelPage__content baseContent'>
+          <img src='images/thailand/koLanta/12547229_727751794028541_1538312601_n.jpg' alt=''/>
           <MarkDown value={utilsMarkdown.whereIveBeenTo} />
           {
             pictures.map((pic, index) => {
