@@ -2,16 +2,29 @@ export const travels = {
   selectedPlace: null,
   places: [
     {
+      name: 'okinawa',
+      markdown: '',
+      start_at: '2015-8',
+      end_at: '2015-09',
+      pictures: [
+        {
+          src: 'japan/okinawa/11265101_483559111824353_609437207_n.jpg',
+          link: 'https://www.instagram.com/p/7eYfNUSyuy/',
+          caption: ''
+        },
+        {
+          src: 'japan/okinawa/11875329_394463710748934_1430471920_n.jpg',
+          link: 'https://www.instagram.com/p/7eY8fHSyvY/',
+          caption: ''
+        },
+      ]
+    },
+    {
       name: 'phuket',
       markdown: '',
       start_at: '2015-12',
       end_at: '2016-1',
       pictures: [
-        {
-          src: 'thailand/phuket/1515645_1000623073343785_2028755133_n.jpg',
-          link: 'https://www.instagram.com/p/BA7x3ZLSylF/',
-          caption: ''
-        },
         {
           src: 'thailand/phuket/12383616_197444323943059_821646113_n.jpg',
           link: 'https://www.instagram.com/p/BBCSX4ASyu7/',
@@ -30,6 +43,11 @@ export const travels = {
         {
           src: 'thailand/phuket/12628069_1672187943070886_984361401_n.jpg',
           link: 'https://www.instagram.com/p/BBMuRxuyyuZ/',
+          caption: ''
+        },
+        {
+          src: 'thailand/phuket/1515645_1000623073343785_2028755133_n.jpg',
+          link: 'https://www.instagram.com/p/BA7x3ZLSylF/',
           caption: ''
         },
       ]

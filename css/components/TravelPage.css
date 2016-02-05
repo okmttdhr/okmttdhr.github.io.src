@@ -11,3 +11,7 @@
 .TravelPage .SocialBtns__btn--ig:hover {
   transform: scale(1, 1);
 }
+
+.TravelPage img {
+  width: 100%;  
+}
