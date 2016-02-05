@@ -2,7 +2,8 @@ var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var AppCachePlugin = require('appcache-webpack-plugin');
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var WebpackNotifierPlugin = require('webpack-notifier');
 
 module.exports = function(options) {
   var entry, jsLoaders, plugins, cssLoaders;
@@ -56,6 +57,7 @@ module.exports = function(options) {
     cssLoaders = 'style-loader!css-loader!postcss-loader';
     // Only plugin is the hot module replacement plugin
     plugins = [
+      new WebpackNotifierPlugin({title: 'okmttdhr.github.io'}),
       new webpack.HotModuleReplacementPlugin(), // Make hot loading work
       new HtmlWebpackPlugin({
         template: 'index.html', // Move the index.html file

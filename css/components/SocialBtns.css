@@ -19,6 +19,9 @@
 .SocialBtns__btn.SocialBtns__btn--tw {
   background-color: #00ACEE;
 }
+.SocialBtns__btn.SocialBtns__btn--ig {
+  background-color: #125688;
+}
 .SocialBtns__btn.SocialBtns__btn--gh {
   background-color: #000;
 }
