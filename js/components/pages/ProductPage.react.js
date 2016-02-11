@@ -1,7 +1,6 @@
 /*
  * ProductPage
  *
- * This is the page users see when they click the "Setup" button on the HomePage
  */
 
 import React, { Component } from 'react';
@@ -21,7 +20,15 @@ export default class ProductPage extends Component {
       {
         label: 'Nikkei Hacker',
         to: 'https://github.com/okmttdhr/nikkei-hacker',
-      }
+      },
+      {
+        label: 'Checklist for Remote Working',
+        to: 'https://github.com/okmttdhr/remote-work-check-list',
+      },
+      {
+        label: 'Fire with three.js',
+        to: 'https://github.com/okmttdhr/threejs-fire',
+      },
     ];
   }
 
