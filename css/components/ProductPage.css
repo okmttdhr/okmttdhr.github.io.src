@@ -1,0 +1,17 @@
+.ProductPage__content {
+  margin-bottom: 50px;
+}
+
+.ProductPage__content > p {
+  margin: 5px 0;
+}
+
+.ProductPage__link {
+  color: $text-color-markdown;
+  text-decoration: initial;
+  font-size: 14px;
+}
+
+.ProductPage__link:hover {
+  text-decoration: underline;
+}

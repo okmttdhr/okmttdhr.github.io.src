@@ -11,6 +11,10 @@ export default class Footer extends Component {
         to: '/',
       },
       {
+        label: '>> product',
+        to: '/product',
+      },
+      {
         label: '>> traveling',
         to: '/travel',
       },
