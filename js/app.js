@@ -33,7 +33,7 @@ import thunk from 'redux-thunk';
 import { syncHistory } from 'redux-simple-router';
 import FontFaceObserver from 'fontfaceobserver';
 import createHistory from 'history/lib/createHashHistory';
-import { useStandardScroll } from 'scroll-behavior';
+import { useSimpleScroll } from 'scroll-behavior';
 
 // Observer loading of Open Sans (to remove open sans, remove the <link> tag in the index.html file and this observer)
 const openSansObserver = new FontFaceObserver('Open Sans', {});
@@ -57,7 +57,7 @@ import '../css/main.css';
 
 // Create the store with middleware
 import rootReducer from './reducers/rootReducer';
-const browserHistory = useStandardScroll(createHistory)({queryKey: false});
+const browserHistory = useSimpleScroll(createHistory)({queryKey: false});
 const reduxRouterMiddleware = syncHistory(browserHistory);
 const createStoreWithMiddleware = applyMiddleware(thunk, reduxRouterMiddleware)(createStore);
 const store = createStoreWithMiddleware(rootReducer);
