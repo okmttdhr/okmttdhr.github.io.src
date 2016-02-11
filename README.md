@@ -1,16 +1,16 @@
-# okmttdhr.github.ioのソースコード
+# okmttdhr.github.io
 
-## スタイルガイド
+## StyleGuide
 
 ### CSS
 
-#### 命名規則
+#### Naming
 
 ```
 .{Block}__{Element}--{Modifier}
 ```
 
-## コマンド
+## Command
 
 
 ```bash
