@@ -1,9 +1,9 @@
 export const howIBecomeDevelopper = `
-  僕は、国際基督教大学を2年時の終わりに休学、その後退学し、現在はWebエンジニアをしている。ここでは、僕が大学をやめてからエンジニアになるまでの経緯を書いておこうと思う。
+  I quite the university at the end of sophomore, and I am now web developper. I'm writing this down to explain how I became developper.
 
-  ## 冬になると死にたくなる
+  ## A Winter Depression
 
-  大学2年時の冬、僕の精神はひどい状態だった。毎日「死にたい」と考えていたと思う。僕はもともと、冬になると気分が重くなったり、性格が変わってしまうようなことが昔からあった。医師に診断をされたりしても、自分の中では「冬になると性格変わるなんて、漫画じゃないんだから」と思っていた。しかし、2011-2012の冬、いろいろなことが祟って、意志の力ではどうにもならないほどに心を病んでしまった。「冬季うつ病」を認識した時だった。
+  I was in a terrible mental state when I was in the sophomore year. I wanted to die everyday. I had epilepsy since I was 7 years old, and related to that, suffered from a sleep disorder, especially strong in the winter months (thankfully now my epilepsy is almost non-existent). And every year, I get depressed during the winter. I had not believed that even though a docter said so. But I coudn't handle it at the point of leaving university. I recognized my winter depression.
 
   ## 「この世には制限がある」という考えが鬱を呼ぶ
 
