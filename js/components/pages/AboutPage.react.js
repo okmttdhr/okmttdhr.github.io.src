@@ -14,7 +14,7 @@ export default class AboutPage extends Component {
     return (
       <div className='AboutPage'>
         <div className='AboutPage__content baseContent'>
-          <MarkDown value={utilsMarkdown.howIBecomeDevelopper} />
+          <MarkDown value={utilsMarkdown.howIBecomeDevelopperEn} />
         </div>
       </div>
     );
