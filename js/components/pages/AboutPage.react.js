@@ -5,7 +5,6 @@
  */
 
 import React, { Component } from 'react';
-import { Link } from 'react-router';
 import utilsMarkdown from 'utils/markdown';
 import MarkDown from 'components/MarkDown.react';
 
