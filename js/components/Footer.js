@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import { connect } from 'react-redux';
 
 export default class Footer extends Component {
-  constructor () {
+  constructor() {
     super();
     this.links = [
       {
@@ -30,12 +30,14 @@ export default class Footer extends Component {
       <div className='Footer baseContent'>
         {
           this.links.map((link, index) => {
-            if (link.to === this.props.router.location.pathname) return;
-            return <p key={index}>
-              <Link className='Footer__linkToPage' to={link.to}>
-                {link.label}
-              </Link>
-            </p>;
+            if (link.to === this.props.router.location.pathname) return null;
+            return (
+              <p key={index}>
+                <Link className='Footer__linkToPage' to={link.to}>
+                  {link.label}
+                </Link>
+              </p>
+            );
           })
         }
       </div>

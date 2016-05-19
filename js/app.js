@@ -46,12 +46,12 @@ openSansObserver.check().then(() => {
 });
 
 // Import the pages
-import HomePage from './components/pages/HomePage.react';
-import AboutPage from './components/pages/AboutPage.react';
-import ProductPage from './components/pages/ProductPage.react';
-import TravelPage from './components/pages/TravelPage.react';
-import NotFoundPage from './components/pages/NotFound.react';
-import App from './components/App.react';
+import HomePage from './components/pages/HomePage';
+import AboutPage from './components/pages/AboutPage';
+import ProductPage from './components/pages/ProductPage';
+import TravelPage from './components/pages/TravelPage';
+import NotFoundPage from './components/pages/NotFound';
+import App from './components/App';
 
 // Import the CSS file, which HtmlWebpackPlugin transfers to the build folder
 import '../css/main.css';

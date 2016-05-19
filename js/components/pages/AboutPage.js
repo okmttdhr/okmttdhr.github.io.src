@@ -6,7 +6,7 @@
 
 import React, { Component } from 'react';
 import utilsMarkdown from 'utils/markdown';
-import MarkDown from 'components/MarkDown.react';
+import MarkDown from 'components/MarkDown';
 
 export default class AboutPage extends Component {
   render() {

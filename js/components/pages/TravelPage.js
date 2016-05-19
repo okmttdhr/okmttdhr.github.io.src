@@ -7,9 +7,9 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router';
 import PhotoSwipe from 'photoswipe';
 import utilsMarkdown from 'utils/markdown';
-import * as travelsActions from 'actions/travels'
-import TravelItem from 'components/Travel/Item.react'
-import MarkDown from 'components/MarkDown.react';
+import * as travelsActions from 'actions/travels';
+import TravelItem from 'components/Travel/Item';
+import MarkDown from 'components/MarkDown';
 
 class TravelPage extends Component {
   static propTypes = {
@@ -17,15 +17,15 @@ class TravelPage extends Component {
     selectPlace: React.PropTypes.func.isRequired,
   };
 
-  constructor () {
-    super()
+  constructor() {
+    super();
   }
 
   render() {
-    let pictures = []
-    this.props.travels.places.map((place, index) => {
+    const pictures = [];
+    this.props.travels.places.map((place) => {
       Array.prototype.push.apply(pictures, place.pictures);
-    })
+    });
     return (
       <div className='TravelPage'>
         <div className='TravelPage__content baseContent'>
@@ -43,7 +43,7 @@ class TravelPage extends Component {
             //   return (<a href={pic.link} target='_blank'><img src={require('images/' + pic.src)} /></a>);
             // })
           }
-          {/*this.props.travels.selectedPlace*/}
+          {/* this.props.travels.selectedPlace */}
           {
             // this.props.travels.places.map((place, index) => {
             //   return <TravelItem

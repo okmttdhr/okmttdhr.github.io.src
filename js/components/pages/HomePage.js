@@ -5,7 +5,7 @@
 
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import SocialBtns from 'components/SocialBtns.react'
+import SocialBtns from 'components/SocialBtns';
 
 class HomePage extends Component {
   render() {
