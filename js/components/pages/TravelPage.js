@@ -4,11 +4,11 @@
 
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Link } from 'react-router';
-import PhotoSwipe from 'photoswipe';
+// import { connect } from 'react-redux';
+// import PhotoSwipe from 'photoswipe';
 import utilsMarkdown from 'utils/markdown';
 import * as travelsActions from 'actions/travels';
-import TravelItem from 'components/Travel/Item';
+// import TravelItem from 'components/Travel/Item';
 import MarkDown from 'components/MarkDown';
 
 class TravelPage extends Component {
