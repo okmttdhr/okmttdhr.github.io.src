@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 import { connect } from 'react-redux';
 
-export default class Footer extends Component {
+export class Footer extends Component {
   constructor() {
     super();
     this.links = [
