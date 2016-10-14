@@ -7,19 +7,15 @@ export class Footer extends Component {
     super();
     this.links = [
       {
-        label: '>> home',
-        to: '/',
-      },
-      {
-        label: '>> product',
+        label: 'product',
         to: '/product',
       },
       {
-        label: '>> traveling',
+        label: 'traveling',
         to: '/travel',
       },
       {
-        label: '>> background',
+        label: 'background',
         to: '/about',
       }
     ];
@@ -30,7 +26,6 @@ export class Footer extends Component {
       <div className='Footer baseContent'>
         {
           this.links.map((link, index) => {
-            if (link.to === this.props.router.location.pathname) return null;
             return (
               <p key={index}>
                 <Link className='Footer__linkToPage' to={link.to}>
