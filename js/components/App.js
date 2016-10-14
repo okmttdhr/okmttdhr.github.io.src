@@ -14,8 +14,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header/>
+        <Header fixed="true"/>
         <div className="App__content">
+          <Header/>
           { this.props.children }
         </div>
       </div>

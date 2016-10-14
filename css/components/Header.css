@@ -1,9 +1,16 @@
 .Header {
-  width: 100vw;
-  position: fixed;
-  top: 60px;
 }
 
 .Header__logo {
   @mixin linkToPage;
+}
+
+.Header__logo--fixed {
+  visibility: hidden;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  &.isActive {
+    visibility: visible;
+  }
 }
