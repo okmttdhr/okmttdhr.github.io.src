@@ -1,0 +1,7 @@
+/* いい感じの真ん中寄せのコンテント */
+@define-mixin baseContent {
+  margin: 0 15%;
+  @media screen and (max-width: 768px) {
+    margin: 0 5%;
+  }
+}

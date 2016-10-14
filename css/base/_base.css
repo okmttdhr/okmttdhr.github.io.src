@@ -92,6 +92,7 @@ body.js-open-sans-loaded {
 }
 
 /* いい感じの真ん中寄せのコンテント */
+/* ※今後はmixinを使うこと */
 .baseContent {
   margin: 0 15%;
 }

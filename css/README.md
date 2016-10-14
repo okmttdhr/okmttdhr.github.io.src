@@ -39,3 +39,7 @@ The boilerplate comes with a basic folder structure to keep the CSS files organi
 ```
 .{Block}__{Element}--{Modifier}
 ```
+
+## Others
+
+* Don't use `class` for common styles. Create some mixins.
