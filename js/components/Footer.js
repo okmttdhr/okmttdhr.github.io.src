@@ -27,11 +27,9 @@ export class Footer extends Component {
         {
           this.links.map((link, index) => {
             return (
-              <p key={index}>
-                <Link className='Footer__linkToPage' to={link.to}>
-                  {link.label}
-                </Link>
-              </p>
+              <Link key={index} className='Footer__linkToPage' to={link.to}>
+                {link.label}
+              </Link>
             );
           })
         }

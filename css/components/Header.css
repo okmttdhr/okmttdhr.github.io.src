@@ -1,7 +1,7 @@
-.Footer {
+.Header {
   margin-bottom: 30px;
 }
 
-.Footer__linkToPage {
+.Header__logo {
   @mixin linkToPage;
 }

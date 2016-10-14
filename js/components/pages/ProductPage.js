@@ -47,11 +47,9 @@ export default class ProductPage extends Component {
           {
             this.links.map((link, index) => {
               return (
-                <p key={index}>
-                  <a className='ProductPage__link' href={link.to} target='_blank'>
-                    {link.label}
-                    </a>
-                </p>
+                <a key={index} className='ProductPage__link' href={link.to} target='_blank'>
+                  {link.label}
+                </a>
               );
             })
           }

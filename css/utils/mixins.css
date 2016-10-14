@@ -5,3 +5,15 @@
     margin: 0 5%;
   }
 }
+
+@define-mixin linkToPage {
+  display: block;
+  margin: 5px 0;
+  text-align: center;
+  color: $text-color-markdown;
+  font-size: $text-size-markdown;
+  text-decoration: initial;
+  &:hover {
+    text-decoration: underline;
+  }
+}
