@@ -13,9 +13,9 @@ import Header from 'components/Header';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <Header/>
-        <div className="wrapper">
+        <div className="App__content">
           { this.props.children }
         </div>
       </div>
