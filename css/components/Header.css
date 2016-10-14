@@ -1,5 +1,7 @@
 .Header {
-  margin-bottom: 30px;
+  width: 100vw;
+  position: fixed;
+  top: 60px;
 }
 
 .Header__logo {

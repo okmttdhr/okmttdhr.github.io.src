@@ -7,7 +7,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import SocialBtns from 'components/SocialBtns';
-import Header from 'components/Header';
 import Footer from 'components/Footer';
 
 class HomePage extends Component {
@@ -15,7 +14,6 @@ class HomePage extends Component {
     return (
       <div className='HomePage'>
         <div className='HomePage__content baseContent'>
-          <Header/>
           <Footer/>
           <SocialBtns/>
         </div>
