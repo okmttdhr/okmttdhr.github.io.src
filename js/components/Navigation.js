@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 import { connect } from 'react-redux';
 
-export class Footer extends Component {
+export class Navigation extends Component {
   constructor() {
     super();
     this.links = [
@@ -23,11 +23,11 @@ export class Footer extends Component {
 
   render() {
     return (
-      <div className='Footer'>
+      <div className='Navigation'>
         {
           this.links.map((link, index) => {
             return (
-              <Link key={index} className='Footer__linkToPage' to={link.to}>
+              <Link key={index} className='Navigation__linkToPage' to={link.to}>
                 {link.label}
               </Link>
             );
@@ -44,4 +44,4 @@ function select(state) {
   };
 }
 
-export default connect(select)(Footer);
+export default connect(select)(Navigation);

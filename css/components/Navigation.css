@@ -1,7 +1,7 @@
-.Footer {
+.Navigation {
   margin: 30px auto;
 }
 
-.Footer__linkToPage {
+.Navigation__linkToPage {
   @mixin linkToPage;
 }
