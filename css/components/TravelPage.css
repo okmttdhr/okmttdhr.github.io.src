@@ -1,5 +1,4 @@
 .TravelPage {
-
 }
 
 .TravelPage .SocialBtns__btn--ig {
@@ -13,5 +12,9 @@
 }
 
 .TravelPage img {
-  width: 100%;  
+  width: 100%;
+}
+
+.TravelPage__content {
+  @mixin baseContent;
 }

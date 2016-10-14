@@ -43,7 +43,7 @@ export default class ProductPage extends Component {
   render() {
     return (
       <div className='ProductPage'>
-        <div className='ProductPage__content baseContent'>
+        <div className='ProductPage__content'>
           {
             this.links.map((link, index) => {
               return (

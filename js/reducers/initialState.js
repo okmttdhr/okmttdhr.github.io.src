@@ -45,11 +45,6 @@ export const travels = {
           link: 'https://www.instagram.com/p/BBMuRxuyyuZ/',
           caption: ''
         },
-        {
-          src: 'thailand/phuket/1515645_1000623073343785_2028755133_n.jpg',
-          link: 'https://www.instagram.com/p/BA7x3ZLSylF/',
-          caption: ''
-        },
       ]
     },
     {

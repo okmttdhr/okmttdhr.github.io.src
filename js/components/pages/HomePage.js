@@ -13,7 +13,7 @@ class HomePage extends Component {
   render() {
     return (
       <div className='HomePage'>
-        <div className='HomePage__content baseContent'>
+        <div className='HomePage__content'>
           <Footer/>
           <SocialBtns/>
         </div>

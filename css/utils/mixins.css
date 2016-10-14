@@ -6,9 +6,9 @@
 
 /* いい感じの真ん中寄せのコンテント */
 @define-mixin baseContent {
-  margin: 0 15%;
+  margin: 30px 15% 0;
   @mixin forSp {
-    margin: 0 5%;
+    margin: 30px 5% 0;
   }
 }
 

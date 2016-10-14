@@ -12,7 +12,7 @@ export default class AboutPage extends Component {
   render() {
     return (
       <div className='AboutPage'>
-        <div className='AboutPage__content baseContent'>
+        <div className='AboutPage__content'>
           <MarkDown value={utilsMarkdown.howIBecomeDevelopperEn} />
         </div>
       </div>

@@ -90,15 +90,3 @@ body.js-open-sans-loaded {
 .mrl-30, .ml-30 {
   margin-left: 30px;
 }
-
-/* いい感じの真ん中寄せのコンテント */
-/* ※今後はmixinを使うこと */
-.baseContent {
-  margin: 0 15%;
-}
-
-@media screen and (max-width: 768px) {
-  .baseContent {
-    margin: 0 5%;
-  }
-}

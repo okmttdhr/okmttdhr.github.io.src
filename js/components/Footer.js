@@ -7,6 +7,10 @@ export class Footer extends Component {
     super();
     this.links = [
       {
+        label: 'about',
+        to: '/about',
+      },
+      {
         label: 'product',
         to: '/product',
       },
@@ -14,16 +18,12 @@ export class Footer extends Component {
         label: 'traveling',
         to: '/travel',
       },
-      {
-        label: 'background',
-        to: '/about',
-      }
     ];
   }
 
   render() {
     return (
-      <div className='Footer baseContent'>
+      <div className='Footer'>
         {
           this.links.map((link, index) => {
             return (

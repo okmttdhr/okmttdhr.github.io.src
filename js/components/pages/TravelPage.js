@@ -28,7 +28,7 @@ class TravelPage extends Component {
     });
     return (
       <div className='TravelPage'>
-        <div className='TravelPage__content baseContent'>
+        <div className='TravelPage__content'>
           <MarkDown value={utilsMarkdown.whereIveBeenTo} />
           {
             pictures.map((pic, index) => {

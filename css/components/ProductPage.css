@@ -1,5 +1,5 @@
 .ProductPage__content {
-  margin-bottom: 50px;
+  @mixin baseContent;
 }
 
 .ProductPage__link {
