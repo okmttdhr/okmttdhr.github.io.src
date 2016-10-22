@@ -37,19 +37,3 @@
 .SocialBtns__btn.SocialBtns__btn--mmm {
   background-color: #0887BF;
 }
-
-.SocialBtns__btn--menu {
-  background-color: transparent;
-  padding: 3px 0;
-}
-
-.SocialBtns__btn--menu__line {
-  width: 100%;
-  height: 2px;
-  margin-bottom: 4px;
-  background-color: #000;
-}
-
-.SocialBtns__btn--menu__line--bottom {
-  margin-bottom: 0px;
-}
