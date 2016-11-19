@@ -18,6 +18,10 @@ export class Navigation extends Component {
         label: 'traveling',
         to: '/travel',
       },
+      {
+        label: 'house',
+        to: '/house',
+      },
     ];
   }
 

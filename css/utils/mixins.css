@@ -26,3 +26,9 @@
     }
   }
 }
+
+@define-mixin basicText {
+  color: $text-color-markdown;
+  font-size: $text-size-markdown;
+  line-height: $line-height-markdown;
+}
