@@ -10,6 +10,10 @@ export default class ProductPage extends Component {
     super();
     this.links = [
       {
+        label: 'nativescript-webview-custom-header',
+        to: 'https://github.com/okmttdhr/nativescript-webview-custom-header',
+      },
+      {
         label: 'Setsuna',
         to: 'https://github.com/okmttdhr/setsuna-firebase',
       },
