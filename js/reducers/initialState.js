@@ -60,5 +60,33 @@ export const travels = {
         },
       ]
     },
+    {
+      name: 'rioDeJaneiro',
+      markdown: '',
+      start_at: '2016-7',
+      end_at: '2016-8',
+      pictures: [
+        {
+          src: 'brazil/rioDeJaneiro/fozDoIguacu.jpg',
+          link: 'https://www.instagram.com/p/BBZ9OE_SyiS/',
+          caption: ''
+        },
+        {
+          src: 'brazil/rioDeJaneiro/lencoisMaranhenses.jpg',
+          link: 'https://www.instagram.com/p/BBZ9OE_SyiS/',
+          caption: ''
+        },
+        {
+          src: 'brazil/rioDeJaneiro/nishikori.jpg',
+          link: 'https://www.instagram.com/p/BBZ9OE_SyiS/',
+          caption: ''
+        },
+        {
+          src: 'brazil/rioDeJaneiro/qatar.jpg',
+          link: 'https://www.instagram.com/p/BBZ9OE_SyiS/',
+          caption: ''
+        },
+      ]
+    },
   ]
 };

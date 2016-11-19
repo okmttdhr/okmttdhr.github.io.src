@@ -7,7 +7,7 @@ export class Navigation extends Component {
     super();
     this.links = [
       {
-        label: 'about',
+        label: 'me',
         to: '/about',
       },
       {

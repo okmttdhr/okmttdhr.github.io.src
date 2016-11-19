@@ -23,7 +23,7 @@ class TravelPage extends Component {
 
   render() {
     const pictures = [];
-    this.props.travels.places.map((place) => {
+    this.props.travels.places.reverse().map((place) => {
       Array.prototype.push.apply(pictures, place.pictures);
     });
     return (
