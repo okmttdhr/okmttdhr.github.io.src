@@ -18,3 +18,10 @@
 .TravelPage__content {
   @mixin baseContent;
 }
+
+.TravelPage__MyMap {
+  width: 100%;
+  height: 480px;
+  border: none;
+  margin-bottom: 12px;
+}
