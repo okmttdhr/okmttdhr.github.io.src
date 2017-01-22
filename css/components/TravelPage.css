@@ -21,7 +21,7 @@
 
 .TravelPage__MyMap {
   width: 100%;
-  height: 480px;
+  height: 60vh;
   border: none;
   margin-bottom: 12px;
 }
