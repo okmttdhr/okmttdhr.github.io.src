@@ -1,68 +1,34 @@
-/*
- * TravelPage
- */
-
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-// import { connect } from 'react-redux';
+import { range, chunk } from 'lodash';
 // import PhotoSwipe from 'photoswipe';
 import utilsMarkdown from 'utils/markdown';
-import * as travelsActions from 'actions/travels';
-// import TravelItem from 'components/Travel/Item';
 import MarkDown from 'components/MarkDown';
 
-class TravelPage extends Component {
-  static propTypes = {
-    travels: React.PropTypes.object.isRequired,
-    selectPlace: React.PropTypes.func.isRequired,
-  };
-
+export class TravelPage extends Component {
   constructor() {
     super();
   }
 
   render() {
-    const pictures = [];
-    this.props.travels.places.reverse().map((place) => {
-      Array.prototype.push.apply(pictures, place.pictures);
-    });
     return (
       <div className='TravelPage'>
         <div className='TravelPage__content'>
           <MarkDown value={utilsMarkdown.whereIveBeenTo} />
           <iframe className='TravelPage__MyMap' src="https://www.google.com/maps/d/u/0/embed?mid=12loqgLDcjQBqe5VMYi_M0fu9chw"></iframe>
-          {
-            pictures.map((pic, index) => {
-              return (<div key={index}>
-                <a href={pic.link} target='_blank' />
-                <img src={require('images/' + pic.src)} />
-              </div>);
-            })
-          }
-          {
-            // this.props.travels.places[1].pictures.map((pic, index) => {
-            //   return (<a href={pic.link} target='_blank'><img src={require('images/' + pic.src)} /></a>);
-            // })
-          }
-          {/* this.props.travels.selectedPlace */}
-          {
-            // this.props.travels.places.map((place, index) => {
-            //   return <TravelItem
-            //     {...place}
-            //     key={index}
-            //     selectPlace={this.props.selectPlace} />;
-            // })
-          }
+          <div className='TravelPage__images'>
+            {
+              chunk(range(116), 3).reverse().map((chunkedNumbers, index) => {
+                const chunkedImages = chunkedNumbers.reverse().map((num, i) => {
+                  return (<div key={i} className='TravelPage__images__chunk__imageWrapper'><img src={require(`images/instagram/0${num}.jpg`)} /></div>);
+                });
+                return (<div className='TravelPage__images__chunk' key={index}>{chunkedImages}</div>);
+              })
+            }
+          </div>
         </div>
       </div>
     );
   }
 }
 
-function select(state) {
-  return {
-    travels: state.travels
-  };
-}
-
-export default connect(select, {...travelsActions})(TravelPage);
+export default TravelPage;
