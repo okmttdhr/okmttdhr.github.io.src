@@ -1,1 +1,1 @@
-export const whereIveBeenTo = `Australia, Brazil, Finland, Bali, Taiwan, Phuket, Bangkok, Ko Lanta. See all photos here <a class="SocialBtns__btn SocialBtns__btn--ig" href="https://www.instagram.com/okmttdhr/" target="_blank"></a> .`;
+export const whereIveBeenTo = `See all photos here <a class="SocialBtns__btn SocialBtns__btn--ig" href="https://www.instagram.com/okmttdhr/" target="_blank"></a> .`;

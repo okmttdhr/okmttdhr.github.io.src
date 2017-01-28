@@ -4,7 +4,7 @@ export const travels = {
     {
       name: 'okinawa',
       markdown: '',
-      start_at: '2015-8',
+      start_at: '2015-08',
       end_at: '2015-09',
       pictures: [
         {
@@ -23,7 +23,7 @@ export const travels = {
       name: 'phuket',
       markdown: '',
       start_at: '2015-12',
-      end_at: '2016-1',
+      end_at: '2016-01',
       pictures: [
         {
           src: 'thailand/phuket/12383616_197444323943059_821646113_n.jpg',
@@ -50,7 +50,7 @@ export const travels = {
     {
       name: 'koLanta',
       markdown: '',
-      start_at: '2015-2',
+      start_at: '2015-02',
       end_at: '2016-03',
       pictures: [
         {
@@ -63,8 +63,8 @@ export const travels = {
     {
       name: 'rioDeJaneiro',
       markdown: '',
-      start_at: '2016-7',
-      end_at: '2016-8',
+      start_at: '2016-07',
+      end_at: '2016-08',
       pictures: [
         {
           src: 'brazil/rioDeJaneiro/fozDoIguacu.jpg',
