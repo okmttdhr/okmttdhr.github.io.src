@@ -1,7 +1,18 @@
-.ProductPage__content {
+.ProductPage__Content {
   @mixin baseContent;
 }
 
 .ProductPage__link {
   @mixin linkToPage;
+  text-align: left;
+}
+
+.ProductPage__Content__Code {
+  margin-bottom: 30px;
+}
+
+.ProductPage__Content__Article {}
+
+.ProductPage__Title {
+  font-size: 15px;
 }

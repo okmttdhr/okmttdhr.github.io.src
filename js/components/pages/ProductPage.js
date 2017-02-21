@@ -4,27 +4,29 @@
  */
 
 import React, { Component } from 'react';
-import { productLinks } from '../../values/';
+import { productLinksCode, productLinksArticle } from '../../values/';
 
 export default class ProductPage extends Component {
-  constructor() {
-    super();
-    this.links = productLinks;
-  }
-
   render() {
     return (
       <div className='ProductPage'>
-        <div className='ProductPage__content'>
-          {
-            this.links.map((link, index) => {
-              return (
-                <a key={index} className='ProductPage__link' href={link.to} target='_blank'>
-                  {link.label}
-                </a>
-              );
-            })
-          }
+        <div className='ProductPage__Content'>
+          <div className='ProductPage__Content__Code'>
+            <p className='ProductPage__Title'>Products</p>
+            {productLinksCode.map((link, index) => (
+              <a key={index} className='ProductPage__link' href={link.to} target='_blank'>
+                {link.label}
+              </a>
+            ))}
+          </div>
+          <div className='ProductPage__Content__Article'>
+            <p className='ProductPage__Title'>Articles</p>
+            {productLinksArticle.map((link, index) => (
+              <a key={index} className='ProductPage__link' href={link.to} target='_blank'>
+                {link.label}
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     );
