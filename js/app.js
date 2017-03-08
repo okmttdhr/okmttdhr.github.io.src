@@ -7,22 +7,6 @@
  *
  */
 
-// Load the ServiceWorker, the Cache polyfill, the manifest.json file and the .htaccess file
-import 'file?name=[name].[ext]!../serviceworker.js';
-import 'file?name=[name].[ext]!../manifest.json';
-import 'file?name=[name].[ext]!../.htaccess';
-
-// Check for ServiceWorker support before trying to install it
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/serviceworker.js').then(() => {
-    // Registration was successful
-  }).catch(() => {
-    // Registration failed
-  });
-} else {
-  // No ServiceWorker Support
-}
-
 // Import all the third party stuff
 import React from 'react';
 import ReactDOM from 'react-dom';
