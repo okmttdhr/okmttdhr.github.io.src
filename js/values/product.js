@@ -1,5 +1,9 @@
 export const productLinksCode = [
   {
+    label: 'Frontend Libraries I use (Whatever)',
+    to: 'https://github.com/okmttdhr/frontend-libraries',
+  },
+  {
     label: 'YoutuVote (React Native, Redux, Firebase)',
     to: 'https://github.com/okmttdhr/YoutuVote',
   },
@@ -24,22 +28,6 @@ export const productLinksCode = [
     to: 'https://github.com/okmttdhr/nativescript-webview-custom-header',
   },
   {
-    label: 'Meteor React Redux Boilerplate (React, Redux, Meteor)',
-    to: 'https://github.com/okmttdhr/meteor-react-redux-boilerplate',
-  },
-  {
-    label: 'Nikkei Hacker (webpack)',
-    to: 'https://github.com/okmttdhr/nikkei-hacker',
-  },
-  {
-    label: 'Rich Text to Markdown (Reactuate)',
-    to: 'https://github.com/okmttdhr/rich-text-to-markdown',
-  },
-  {
-    label: 'esa Bug Fix (UI)',
-    to: 'https://github.com/okmttdhr/esa-bug-fix',
-  },
-  {
     label: 'Cu-hacker (Ruby on Rails, jQuery)',
     to: 'https://cu-hacker.com/',
   },
@@ -51,6 +39,10 @@ export const productLinksCode = [
 
 export const productLinksArticle = [
   {
+    label: '新人プログラマの時に知っておきたかったハマったときのフローチャートと基本思考',
+    to: 'http://blog.mmmcorp.co.jp/blog/2017/04/24/problem-solving/',
+  },
+  {
     label: '2017年、新規にJavaScriptを書くならどんな設計をするか',
     to: 'http://blog.mmmcorp.co.jp/blog/2016/12/22/JavaScript/',
   },
@@ -61,6 +53,10 @@ export const productLinksArticle = [
   {
     label: 'RxJSを例とした独学の10ステップ',
     to: 'http://blog.mmmcorp.co.jp/blog/2017/01/25/learn-rxjs/',
+  },
+  {
+    label: 'React VRについて調べてみた',
+    to: 'http://blog.mmmcorp.co.jp/blog/2017/03/24/ReactVR/',
   },
   {
     label: '2016年JSハイブリッドアプリの動向をまとめてみた',
@@ -75,12 +71,12 @@ export const productLinksArticle = [
     to: 'http://blog.mmmcorp.co.jp/blog/2016/11/24/NativeScriptPushNotification/',
   },
   {
-    label: 'RxJS雑感',
-    to: 'http://blog.mmmcorp.co.jp/blog/2016/08/05/firstimpressionsofrxjs/',
-  },
-  {
     label: 'NativeScript開発でハマった時の対応まとめ',
     to: 'http://blog.mmmcorp.co.jp/blog/2016/06/10/ns/',
+  },
+  {
+    label: 'RxJS雑感',
+    to: 'http://blog.mmmcorp.co.jp/blog/2016/08/05/firstimpressionsofrxjs/',
   },
   {
     label: 'ブラジルで時差のあるリモートワーク',
@@ -93,5 +89,9 @@ export const productLinksArticle = [
   {
     label: 'プーケットでのリモートワークレポート',
     to: 'http://blog.mmmcorp.co.jp/blog/2015/12/26/phuket-work-cation/',
+  },
+  {
+    label: 'リモートワーカーへ、work-cationのススメ',
+    to: 'http://blog.mmmcorp.co.jp/blog/2015/09/11/work-cation-remote-work/',
   },
 ];
