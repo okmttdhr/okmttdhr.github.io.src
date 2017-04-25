@@ -16,6 +16,7 @@
     "url": "git://github.com/okmttdhr/okmttdhr.github.io.src.git"
   },
   "dependencies": {
+    "classnames": "^2.2.5",
     "fontfaceobserver": "^1.5.1",
     "history": "^1.17.0",
     "lodash": "^4.17.4",
@@ -62,6 +63,8 @@
     "object.assign": "^4.0.1",
     "postcss-import": "^7.0.0",
     "postcss-loader": "^0.8.0",
+    "postcss-mixins": "^5.4.1",
+    "postcss-nested": "^1.0.1",
     "postcss-reporter": "^1.2.1",
     "postcss-simple-vars": "^1.0.0",
     "react-transform-hmr": "^1.0.1",
