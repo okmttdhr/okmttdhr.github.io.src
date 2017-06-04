@@ -17,7 +17,7 @@ export class TravelPage extends Component {
           <iframe className='TravelPage__MyMap' src="https://www.google.com/maps/d/u/0/embed?mid=12loqgLDcjQBqe5VMYi_M0fu9chw"></iframe>
           <div className='TravelPage__images'>
             {
-              chunk(range(138), 3).reverse().map((chunkedNumbers, index) => {
+              chunk(range(134), 3).reverse().map((chunkedNumbers, index) => {
                 const chunkedImages = chunkedNumbers.reverse().map((num, i) => {
                   return (<div key={i} className='TravelPage__images__chunk__imageWrapper'><img src={require(`images/instagram/0${num}.jpg`)} /></div>);
                 });
