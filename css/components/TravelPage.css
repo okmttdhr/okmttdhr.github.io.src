@@ -33,6 +33,8 @@ $TravelPage__images__chunk__margin: 5px;
 }
 
 .TravelPage__images__chunk__imageWrapper {
+  display: flex;
+  align-items: center;
   flex: 1 1 0;
   margin-bottom: $TravelPage__images__chunk__margin;
   img {

@@ -8,10 +8,6 @@ export const productLinksCode = [
     to: 'https://github.com/okmttdhr/YoutuVote',
   },
   {
-    label: 'DokushoPlan (TypeScript, React, AVA, Rollup)',
-    to: 'https://github.com/okmttdhr/DokushoPlan',
-  },
-  {
     label: 'Setsuna (React, Redux, Firebase)',
     to: 'https://github.com/okmttdhr/setsuna-firebase',
   },
@@ -22,10 +18,6 @@ export const productLinksCode = [
   {
     label: 'Checklist for Remote Working (Remote Working)',
     to: 'https://github.com/okmttdhr/remote-work-check-list',
-  },
-  {
-    label: 'nativescript-webview-custom-header (TypeScript, NativeScript)',
-    to: 'https://github.com/okmttdhr/nativescript-webview-custom-header',
   },
   {
     label: 'Cu-hacker (Ruby on Rails, jQuery)',
@@ -73,10 +65,6 @@ export const productLinksArticle = [
   {
     label: 'NativeScript開発でハマった時の対応まとめ',
     to: 'http://blog.mmmcorp.co.jp/blog/2016/06/10/ns/',
-  },
-  {
-    label: 'RxJS雑感',
-    to: 'http://blog.mmmcorp.co.jp/blog/2016/08/05/firstimpressionsofrxjs/',
   },
   {
     label: 'ブラジルで時差のあるリモートワーク',
