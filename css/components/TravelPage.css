@@ -1,14 +1,12 @@
 .TravelPage {
 }
 
-.TravelPage .SocialBtns__btn--ig {
-  margin-bottom: -2px;
-  width: 15px;
-  height: 15px;
-}
-
-.TravelPage .SocialBtns__btn--ig:hover {
-  transform: scale(1, 1);
+.TravelPage {
+  .SocialBtns__btn--ig, .SocialBtns__btn--gp {
+    margin-bottom: -2px;
+    width: 15px;
+    height: 15px;
+  }
 }
 
 .TravelPage__content {

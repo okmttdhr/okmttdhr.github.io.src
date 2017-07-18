@@ -17,6 +17,6 @@ new WebpackDevServer(webpack(config), { // Start a server
     console.log(err);
   } else {
     console.log('Server started');
-    console.log('Listening at localhost:3000');
+    console.log('Listening at http://localhost:3000');
   }
 });
