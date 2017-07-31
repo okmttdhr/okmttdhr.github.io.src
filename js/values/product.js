@@ -43,6 +43,10 @@ export const productLinksArticle = [
     to: 'http://qiita.com/okmttdhr/items/cc58e83c259aa0049538',
   },
   {
+    label: 'Serverless Framework+Node.jsをつかったLambda関数の開発フロー',
+    to: 'http://qiita.com/okmttdhr/items/4197e7f5bc7fe737a1be'
+  },
+  {
     label: 'RxJSを例とした独学の10ステップ',
     to: 'http://blog.mmmcorp.co.jp/blog/2017/01/25/learn-rxjs/',
   },
