@@ -4,6 +4,14 @@
   color: $text-color-markdown;
 }
 
+.MarkDown a {
+  color: $text-color-markdown;
+}
+
+.MarkDown a:hover {
+  opacity: 0.8;
+}
+
 .MarkDown p {
   font-size: $text-size-markdown;
   line-height: $line-height-markdown;

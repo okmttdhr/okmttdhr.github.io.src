@@ -3,5 +3,5 @@
 ## Command
 
 ```bash
-npm run deploy
+yarn deploy
 ```
