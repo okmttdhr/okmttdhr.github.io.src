@@ -35,6 +35,10 @@ export const productLinksArticle = [
     to: 'http://blog.mmmcorp.co.jp/blog/2017/04/24/problem-solving/',
   },
   {
+    label: 'AWS IoT + Amazon Rekognition/Polly + Raspberry Piで映像監視&音声通知システムをつくる',
+    to: 'https://blog.mmmcorp.co.jp/blog/2017/10/13/amazon-ai/',
+  },
+  {
     label: '2017年、新規にJavaScriptを書くならどんな設計をするか',
     to: 'http://blog.mmmcorp.co.jp/blog/2016/12/22/JavaScript/',
   },
@@ -45,6 +49,10 @@ export const productLinksArticle = [
   {
     label: 'Serverless Framework+Node.jsをつかったLambda関数の開発フロー',
     to: 'http://qiita.com/okmttdhr/items/4197e7f5bc7fe737a1be'
+  },
+  {
+    label: 'ReduxをREST APIと使う時の命名のコツ',
+    to: 'https://blog.mmmcorp.co.jp/blog/2017/08/09/redux-with-rest-api/',
   },
   {
     label: 'RxJSを例とした独学の10ステップ',
