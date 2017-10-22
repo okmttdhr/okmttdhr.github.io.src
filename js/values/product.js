@@ -27,10 +27,6 @@ export const productLinksCode = [
     label: 'Cu-hacker (Ruby on Rails, jQuery)',
     to: 'https://cu-hacker.com/',
   },
-  {
-    label: 'I HAV. (CakePHP, jQuery, CSS, UI)',
-    to: 'https://ihav.it/',
-  },
 ];
 
 export const productLinksArticle = [
