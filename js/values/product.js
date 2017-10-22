@@ -8,10 +8,6 @@ export const productLinksCode = [
     to: 'https://github.com/okmttdhr/YoutuVote',
   },
   {
-    label: 'YouTuber年表',
-    to: 'https://okmttdhr.github.io/youtubers-timeline-in-japan/'
-  },
-  {
     label: 'Setsuna (React, Redux, Firebase)',
     to: 'https://github.com/okmttdhr/setsuna-firebase',
   },
@@ -26,6 +22,10 @@ export const productLinksCode = [
   {
     label: 'Cu-hacker (Ruby on Rails, jQuery)',
     to: 'https://cu-hacker.com/',
+  },
+  {
+    label: 'YouTuber年表',
+    to: 'https://okmttdhr.github.io/youtubers-timeline-in-japan/'
   },
 ];
 
