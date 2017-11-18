@@ -43,7 +43,7 @@ export const productLinksArticle = [
     to: 'http://qiita.com/okmttdhr/items/cc58e83c259aa0049538',
   },
   {
-    label: 'AWS IoT + Amazon Rekognition/Polly + Raspberry Piで映像監視&音声通知システムをつくる (AWS IoT, Amazon AI)',
+    label: 'AWS IoT + Rekognition/Polly + Raspberry Piで映像監視&音声通知システムをつくる (AWS IoT, Amazon AI)',
     to: 'https://blog.mmmcorp.co.jp/blog/2017/10/13/amazon-ai/',
   },
   {
@@ -71,7 +71,7 @@ export const productLinksArticle = [
     to: 'http://blog.mmmcorp.co.jp/blog/2016/04/08/hybrid-app/',
   },
   {
-    label: 'レガシーコード改善ガイド内容メモ',
+    label: 'レガシーコード改善ガイド内容メモ (Design Technique)',
     to: 'http://blog.mmmcorp.co.jp/blog/2016/10/27/working-effectively-with-legacy-code/',
   },
   {
