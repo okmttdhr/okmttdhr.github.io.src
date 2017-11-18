@@ -31,39 +31,43 @@ export const productLinksCode = [
 
 export const productLinksArticle = [
   {
-    label: '新人プログラマの時に知っておきたかったハマったときのフローチャートと基本思考',
+    label: '新人プログラマの時に知っておきたかったハマったときのフローチャートと基本思考 (Problem Solving)',
     to: 'http://blog.mmmcorp.co.jp/blog/2017/04/24/problem-solving/',
   },
   {
-    label: 'AWS IoT + Amazon Rekognition/Polly + Raspberry Piで映像監視&音声通知システムをつくる',
-    to: 'https://blog.mmmcorp.co.jp/blog/2017/10/13/amazon-ai/',
-  },
-  {
-    label: '2017年、新規にJavaScriptを書くならどんな設計をするか',
+    label: '2017年、新規にJavaScriptを書くならどんな設計をするか (Frontend)',
     to: 'http://blog.mmmcorp.co.jp/blog/2016/12/22/JavaScript/',
   },
   {
-    label: 'フロントエンドのテストに真面目に向き合う',
+    label: 'フロントエンドのテストに真面目に向き合う (Frontend, Testing)',
     to: 'http://qiita.com/okmttdhr/items/cc58e83c259aa0049538',
   },
   {
-    label: 'Serverless Framework+Node.jsをつかったLambda関数の開発フロー',
+    label: 'AWS IoT + Amazon Rekognition/Polly + Raspberry Piで映像監視&音声通知システムをつくる (AWS IoT, Amazon AI)',
+    to: 'https://blog.mmmcorp.co.jp/blog/2017/10/13/amazon-ai/',
+  },
+  {
+    label: 'Amazon Connectで担当者直通電話システムの開発 (Amazon Connect)',
+    to: 'https://blog.mmmcorp.co.jp/blog/2017/11/09/amazon-connect-customer-support/',
+  },
+  {
+    label: 'Serverless Framework+Node.jsをつかったLambda関数の開発フロー (AWS Lambda)',
     to: 'http://qiita.com/okmttdhr/items/4197e7f5bc7fe737a1be'
   },
   {
-    label: 'ReduxをREST APIと使う時の命名のコツ',
+    label: 'ReduxをREST APIと使う時の命名のコツ (Redux)',
     to: 'https://blog.mmmcorp.co.jp/blog/2017/08/09/redux-with-rest-api/',
   },
   {
-    label: 'RxJSを例とした独学の10ステップ',
+    label: 'RxJSを例とした独学の10ステップ (RxJS)',
     to: 'http://blog.mmmcorp.co.jp/blog/2017/01/25/learn-rxjs/',
   },
   {
-    label: 'React VRについて調べてみた',
+    label: 'React VRについて調べてみた (React, three.js, VR)',
     to: 'http://blog.mmmcorp.co.jp/blog/2017/03/24/ReactVR/',
   },
   {
-    label: '2016年JSハイブリッドアプリの動向をまとめてみた',
+    label: '2016年JSハイブリッドアプリの動向をまとめてみた (Mobile App)',
     to: 'http://blog.mmmcorp.co.jp/blog/2016/04/08/hybrid-app/',
   },
   {
@@ -71,11 +75,11 @@ export const productLinksArticle = [
     to: 'http://blog.mmmcorp.co.jp/blog/2016/10/27/working-effectively-with-legacy-code/',
   },
   {
-    label: 'NativeScriptでプッシュ通知を実装',
+    label: 'NativeScriptでプッシュ通知を実装 (NativeScript)',
     to: 'http://blog.mmmcorp.co.jp/blog/2016/11/24/NativeScriptPushNotification/',
   },
   {
-    label: 'NativeScript開発でハマった時の対応まとめ',
+    label: 'NativeScript開発でハマった時の対応まとめ (NativeScript)',
     to: 'http://blog.mmmcorp.co.jp/blog/2016/06/10/ns/',
   },
 ];
