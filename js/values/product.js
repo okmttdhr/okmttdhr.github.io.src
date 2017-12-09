@@ -43,6 +43,10 @@ export const productLinksArticle = [
     to: 'http://qiita.com/okmttdhr/items/cc58e83c259aa0049538',
   },
   {
+    label: '機械学習で東京都の不動産の取引価格を予測する (Amazon Machine Learning)',
+    to: 'https://blog.mmmcorp.co.jp/blog/2017/11/30/amazon-machine-learning/',
+  },
+  {
     label: 'AWS IoT + Rekognition/Polly + Raspberry Piで映像監視&音声通知システムをつくる (AWS IoT, Amazon AI)',
     to: 'https://blog.mmmcorp.co.jp/blog/2017/10/13/amazon-ai/',
   },
