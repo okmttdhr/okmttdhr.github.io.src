@@ -4,8 +4,8 @@ export const productLinksCode = [
     to: 'https://github.com/okmttdhr/frontend-libraries',
   },
   {
-    label: 'YoutuVote (React Native, Redux, Firebase)',
-    to: 'https://github.com/okmttdhr/YoutuVote',
+    label: 'Miss YT (React Native, Redux, Firebase)',
+    to: 'https://github.com/okmttdhr/Miss-YT',
   },
   {
     label: 'YouTuber年表',
