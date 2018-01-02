@@ -1,3 +1,4 @@
+
 export const productLinksCode = [
   {
     label: 'Frontend Libraries I use (Whatever)',
@@ -8,12 +9,12 @@ export const productLinksCode = [
     to: 'https://github.com/okmttdhr/Miss-YT',
   },
   {
-    label: 'YouTuber年表',
-    to: 'https://okmttdhr.github.io/youtubers-timeline-in-japan/'
-  },
-  {
     label: 'Setsuna (React, Redux, Firebase)',
     to: 'https://github.com/okmttdhr/setsuna-firebase',
+  },
+  {
+    label: 'YouTuber年表',
+    to: 'https://okmttdhr.github.io/youtubers-timeline-in-japan/'
   },
   {
     label: '3D Fire (three.js)',
