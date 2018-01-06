@@ -29,6 +29,10 @@ export const bookLinks = [
     to: 'http://amzn.to/2CGfzZh'
   },
   {
+    label: 'Soft Skills',
+    to: 'http://amzn.to/2lZCCnq',
+  },
+  {
     label: 'Team Geek',
     to: 'http://amzn.to/2CKUI6M',
   },
