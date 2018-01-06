@@ -44,7 +44,7 @@ export const productLinksArticle = [
     to: 'https://qiita.com/okmttdhr/items/cc58e83c259aa0049538',
   },
   {
-    label: 'Coursera 機械学習コースの全用語を3行でまとめてみた',
+    label: 'Coursera 機械学習コースの全用語を3行でまとめてみた (Machine Learning)',
     to: 'https://qiita.com/okmttdhr/items/092ec5fc450762a73ad0',
   },
   {
