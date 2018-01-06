@@ -1,0 +1,12 @@
+.BooksPage__Content {
+  @mixin baseContent;
+}
+
+.BooksPage__link {
+  @mixin linkToPage;
+  text-align: left;
+}
+
+.BooksPage__Title {
+  font-size: 15px;
+}

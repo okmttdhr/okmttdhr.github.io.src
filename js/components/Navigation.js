@@ -11,8 +11,12 @@ export class Navigation extends Component {
         to: '/about',
       },
       {
-        label: 'product',
-        to: '/product',
+        label: 'products',
+        to: '/products',
+      },
+      {
+        label: 'books',
+        to: '/books',
       },
       {
         label: 'traveling',
