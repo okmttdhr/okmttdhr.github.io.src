@@ -33,15 +33,19 @@ export const productLinksCode = [
 export const productLinksArticle = [
   {
     label: '新人プログラマの時に知っておきたかったハマったときのフローチャートと基本思考 (Problem Solving)',
-    to: 'http://blog.mmmcorp.co.jp/blog/2017/04/24/problem-solving/',
+    to: 'https://blog.mmmcorp.co.jp/blog/2017/04/24/problem-solving/',
   },
   {
     label: '2017年、新規にJavaScriptを書くならどんな設計をするか (Frontend)',
-    to: 'http://blog.mmmcorp.co.jp/blog/2016/12/22/JavaScript/',
+    to: 'https://blog.mmmcorp.co.jp/blog/2016/12/22/JavaScript/',
   },
   {
     label: 'フロントエンドのテストに真面目に向き合う (Frontend, Testing)',
-    to: 'http://qiita.com/okmttdhr/items/cc58e83c259aa0049538',
+    to: 'https://qiita.com/okmttdhr/items/cc58e83c259aa0049538',
+  },
+  {
+    label: 'Coursera 機械学習コースの全用語を3行でまとめてみた',
+    to: 'https://qiita.com/okmttdhr/items/092ec5fc450762a73ad0',
   },
   {
     label: '機械学習で東京都の不動産の取引価格を予測する (Amazon Machine Learning)',
@@ -65,27 +69,31 @@ export const productLinksArticle = [
   },
   {
     label: 'RxJSを例とした独学の10ステップ (RxJS)',
-    to: 'http://blog.mmmcorp.co.jp/blog/2017/01/25/learn-rxjs/',
+    to: 'https://blog.mmmcorp.co.jp/blog/2017/01/25/learn-rxjs/',
+  },
+  {
+    label: 'Karmaで行なっていたUIテストにStorybookを導入した',
+    to: 'https://blog.mmmcorp.co.jp/blog/2017/10/04/storybook/',
   },
   {
     label: 'React VRについて調べてみた (React, three.js, VR)',
-    to: 'http://blog.mmmcorp.co.jp/blog/2017/03/24/ReactVR/',
+    to: 'https://blog.mmmcorp.co.jp/blog/2017/03/24/ReactVR/',
   },
   {
     label: '2016年JSハイブリッドアプリの動向をまとめてみた (Mobile App)',
-    to: 'http://blog.mmmcorp.co.jp/blog/2016/04/08/hybrid-app/',
+    to: 'https://blog.mmmcorp.co.jp/blog/2016/04/08/hybrid-app/',
   },
   {
     label: 'レガシーコード改善ガイド内容メモ (Design Technique)',
-    to: 'http://blog.mmmcorp.co.jp/blog/2016/10/27/working-effectively-with-legacy-code/',
+    to: 'https://blog.mmmcorp.co.jp/blog/2016/10/27/working-effectively-with-legacy-code/',
   },
   {
     label: 'NativeScriptでプッシュ通知を実装 (NativeScript)',
-    to: 'http://blog.mmmcorp.co.jp/blog/2016/11/24/NativeScriptPushNotification/',
+    to: 'https://blog.mmmcorp.co.jp/blog/2016/11/24/NativeScriptPushNotification/',
   },
   {
     label: 'NativeScript開発でハマった時の対応まとめ (NativeScript)',
-    to: 'http://blog.mmmcorp.co.jp/blog/2016/06/10/ns/',
+    to: 'https://blog.mmmcorp.co.jp/blog/2016/06/10/ns/',
   },
 ];
 
