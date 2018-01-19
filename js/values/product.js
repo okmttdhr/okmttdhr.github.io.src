@@ -5,6 +5,10 @@ export const productLinksCode = [
     to: 'https://github.com/okmttdhr/frontend-libraries',
   },
   {
+    label: "Kaggle's Titanic with deeplearn.js",
+    to: 'https://github.com/okmttdhr/kaggle-titanic-deeplearn-js',
+  },
+  {
     label: 'Miss YT (React Native, Redux, Firebase)',
     to: 'https://github.com/okmttdhr/Miss-YT',
   },
@@ -42,6 +46,10 @@ export const productLinksArticle = [
   {
     label: 'フロントエンドのテストに真面目に向き合う (Frontend, Testing)',
     to: 'https://qiita.com/okmttdhr/items/cc58e83c259aa0049538',
+  },
+  {
+    label: 'JavaScriptでDeep Learning (Machine Learning)',
+    to: 'https://qiita.com/okmttdhr/items/e02bf4748db98cefff75',
   },
   {
     label: 'Coursera 機械学習コースの全用語を3行でまとめてみた (Machine Learning)',

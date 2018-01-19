@@ -38,7 +38,7 @@ export const bookLinks = [
   },
   {
     label: 'Life 3.0',
-    to: 'http://amzn.to/2CK7dQd',
+    to: 'https://github.com/okmttdhr/life-3.0',
   },
   {
     label: 'Intelligent Investor',
