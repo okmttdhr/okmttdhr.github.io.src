@@ -5,7 +5,7 @@ export const productLinksCode = [
     to: 'https://github.com/okmttdhr/frontend-libraries',
   },
   {
-    label: "Kaggle's Titanic with deeplearn.js",
+    label: "Kaggle's Titanic with deeplearn.js (Machine Learning)",
     to: 'https://github.com/okmttdhr/kaggle-titanic-deeplearn-js',
   },
   {
@@ -56,7 +56,7 @@ export const productLinksArticle = [
     to: 'https://qiita.com/okmttdhr/items/092ec5fc450762a73ad0',
   },
   {
-    label: '機械学習で東京都の不動産の取引価格を予測する (Amazon Machine Learning)',
+    label: '機械学習で東京都の不動産の取引価格を予測する (Machine Learning)',
     to: 'https://blog.mmmcorp.co.jp/blog/2017/11/30/amazon-machine-learning/',
   },
   {
