@@ -19,7 +19,7 @@ Server-Side
 ★★★☆☆ CakePHP
 
 
-Other
+Others
 
 ★★★★☆ AWS Lambda (Serverless Framework, Apex, AWS SAM, with Node, Golang, Python)
 <br>
