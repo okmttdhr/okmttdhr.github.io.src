@@ -1,12 +1,14 @@
 I’m Tada, a JavaScript Developer. I hate winter for some reason, so I’ve decided to work 100% remotely and escape from that. Love to write some code and travel.
 
 
-SKILLS (front-end)
+SKILLS
 
-★★★★★ <a href="https://github.com/okmttdhr/frontend-libraries" target="\_blank">Frontend stuff</a>
+Front-End
+
+★★★★★ <a href="https://github.com/okmttdhr/frontend-libraries" target="\_blank">libraries I use</a>
 
 
-SKILLS (server-side)
+Server-Side
 
 ★★★★☆ Node (Express)
 <br>
@@ -17,7 +19,7 @@ SKILLS (server-side)
 ★★★☆☆ CakePHP
 
 
-SKILLS (other)
+Other
 
 ★★★★☆ AWS Lambda (Serverless Framework, Apex, AWS SAM, with Node, Golang, Python)
 <br>

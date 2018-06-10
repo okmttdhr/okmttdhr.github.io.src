@@ -1,7 +1,7 @@
 
 export const productLinksCode = [
   {
-    label: 'Frontend Libraries I use (Frontend)',
+    label: 'Front-End Libraries I use (Front-End)',
     to: 'https://github.com/okmttdhr/frontend-libraries',
   },
   {
@@ -48,11 +48,11 @@ export const productLinksArticle = [
     to: 'https://blog.mmmcorp.co.jp/blog/2018/05/09/node-express/',
   },
   {
-    label: '2017年、新規にJavaScriptを書くならどんな設計をするか (Frontend)',
+    label: '2017年、新規にJavaScriptを書くならどんな設計をするか (Front-End)',
     to: 'https://blog.mmmcorp.co.jp/blog/2016/12/22/JavaScript/',
   },
   {
-    label: 'フロントエンドのテストに真面目に向き合う (Frontend, Testing)',
+    label: 'フロントエンドのテストに真面目に向き合う (Front-End, Testing)',
     to: 'https://qiita.com/okmttdhr/items/cc58e83c259aa0049538',
   },
   {
@@ -88,7 +88,7 @@ export const productLinksArticle = [
     to: 'https://blog.mmmcorp.co.jp/blog/2017/01/25/learn-rxjs/',
   },
   {
-    label: 'Karmaで行なっていたUIテストにStorybookを導入した (Frontend, Testing)',
+    label: 'Karmaで行なっていたUIテストにStorybookを導入した (Front-End, Testing)',
     to: 'https://blog.mmmcorp.co.jp/blog/2017/10/04/storybook/',
   },
   {
