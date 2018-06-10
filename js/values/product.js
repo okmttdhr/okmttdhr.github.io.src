@@ -1,11 +1,11 @@
 
 export const productLinksCode = [
   {
-    label: 'Frontend Libraries I use (Whatever)',
+    label: 'Frontend Libraries I use (Frontend)',
     to: 'https://github.com/okmttdhr/frontend-libraries',
   },
   {
-    label: 'Express Rest API 2018',
+    label: 'Express Rest API 2018 (Node)',
     to: 'https://github.com/okmttdhr/express-rest-api-2018',
   },
   {
@@ -88,7 +88,7 @@ export const productLinksArticle = [
     to: 'https://blog.mmmcorp.co.jp/blog/2017/01/25/learn-rxjs/',
   },
   {
-    label: 'Karmaで行なっていたUIテストにStorybookを導入した',
+    label: 'Karmaで行なっていたUIテストにStorybookを導入した (Frontend, Testing)',
     to: 'https://blog.mmmcorp.co.jp/blog/2017/10/04/storybook/',
   },
   {
