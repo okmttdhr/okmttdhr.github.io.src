@@ -5,6 +5,10 @@ export const productLinksCode = [
     to: 'https://github.com/okmttdhr/frontend-libraries',
   },
   {
+    label: 'Express Rest API 2018',
+    to: 'https://github.com/okmttdhr/express-rest-api-2018',
+  },
+  {
     label: "Kaggle's Titanic with deeplearn.js (Machine Learning)",
     to: 'https://github.com/okmttdhr/kaggle-titanic-deeplearn-js',
   },
