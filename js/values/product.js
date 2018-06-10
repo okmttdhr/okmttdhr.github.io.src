@@ -40,6 +40,10 @@ export const productLinksArticle = [
     to: 'https://blog.mmmcorp.co.jp/blog/2017/04/24/problem-solving/',
   },
   {
+    label: 'Node + ExpressでAPI開発をする時の開発環境 (Node)',
+    to: 'https://blog.mmmcorp.co.jp/blog/2018/05/09/node-express/',
+  },
+  {
     label: '2017年、新規にJavaScriptを書くならどんな設計をするか (Frontend)',
     to: 'https://blog.mmmcorp.co.jp/blog/2016/12/22/JavaScript/',
   },
@@ -64,8 +68,8 @@ export const productLinksArticle = [
     to: 'https://blog.mmmcorp.co.jp/blog/2017/10/13/amazon-ai/',
   },
   {
-    label: 'Amazon Connectで担当者直通電話システムの開発 (Amazon Connect)',
-    to: 'https://blog.mmmcorp.co.jp/blog/2017/11/09/amazon-connect-customer-support/',
+    label: 'AWS SAMとGolangでLambda関数の開発環境をつくる (AWS Lambda, Golang)',
+    to: 'https://blog.mmmcorp.co.jp/blog/2018/06/08/aws-sam-go/',
   },
   {
     label: 'Serverless Framework+Node.jsをつかったLambda関数の開発フロー (AWS Lambda)',
@@ -94,6 +98,10 @@ export const productLinksArticle = [
   {
     label: 'レガシーコード改善ガイド内容メモ (Design Technique)',
     to: 'https://blog.mmmcorp.co.jp/blog/2016/10/27/working-effectively-with-legacy-code/',
+  },
+  {
+    label: 'Amazon Connectで担当者直通電話システムの開発 (Amazon Connect)',
+    to: 'https://blog.mmmcorp.co.jp/blog/2017/11/09/amazon-connect-customer-support/',
   },
   {
     label: 'NativeScriptでプッシュ通知を実装 (NativeScript)',
