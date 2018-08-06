@@ -9,6 +9,10 @@ export const productLinksCode = [
     to: 'https://github.com/okmttdhr/express-rest-api-2018',
   },
   {
+    label: 'Create RDS with Lambda, EC2 using Terraform (AWS)',
+    to: 'https://github.com/okmttdhr/terraform-rds',
+  },
+  {
     label: "Kaggle's Titanic with deeplearn.js (Machine Learning)",
     to: 'https://github.com/okmttdhr/kaggle-titanic-deeplearn-js',
   },

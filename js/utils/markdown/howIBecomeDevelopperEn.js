@@ -20,21 +20,24 @@ Server-Side
 ★★★☆☆ CakePHP
 
 
-Others
+AWS
 
+★★★☆☆ <a href="https://bit.ly/2AKe3VZ" target="\_blank">AWS General</a>
+<br>
 ★★★★☆ AWS Lambda (Serverless Framework, Apex, AWS SAM, with Node, Golang, Python)
-<br>
-★★★☆☆ <a href="https://bit.ly/2AKe3VZ" target="\_blank">AWS Basics</a>
-<br>
-★★★☆☆ Mobile Apps (React Native, NativeScript)
-<br>
-★★★☆☆ Firebase
 <br>
 ★★★☆☆ Amazon AI (Rekognition, Polly, Lex, Machine Learning)
 <br>
 ★★★☆☆ Amazon Connect
 <br>
 ★★☆☆☆ AWS IoT
+
+
+Others
+
+★★★☆☆ Mobile Apps (React Native, NativeScript)
+<br>
+★★★☆☆ Firebase
 <br>
 ★☆☆☆☆ <a href="https://www.coursera.org/account/accomplishments/certificate/ZPU9E9KA9BBV" target="\_blank">Machine Learning</a>
 `;
