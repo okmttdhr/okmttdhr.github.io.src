@@ -23,6 +23,8 @@ Others
 
 ★★★★☆ AWS Lambda (Serverless Framework, Apex, AWS SAM, with Node, Golang, Python)
 <br>
+★★★☆☆ <a href="https://bit.ly/2AKe3VZ" target="\_blank">AWS Basics</a>
+<br>
 ★★★☆☆ Mobile Apps (React Native, NativeScript)
 <br>
 ★★★☆☆ Firebase
