@@ -1,5 +1,5 @@
 
-export const bookLinks = [
+export const favoriteLinks = [
   {
     label: 'Code Complete',
     to: 'http://amzn.to/2lZo5Io',

@@ -15,12 +15,12 @@ export class Navigation extends Component {
         to: '/products',
       },
       {
-        label: 'books',
-        to: '/books',
-      },
-      {
         label: 'traveling',
         to: '/travel',
+      },
+      {
+        label: 'favorites',
+        to: '/favorites',
       },
     ];
   }

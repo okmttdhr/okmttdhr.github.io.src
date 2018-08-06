@@ -1,12 +1,12 @@
-.BooksPage__Content {
+.FavoritesPage__Content {
   @mixin baseContent;
 }
 
-.BooksPage__link {
+.FavoritesPage__link {
   @mixin linkToPage;
   text-align: left;
 }
 
-.BooksPage__Title {
+.FavoritesPage__Title {
   font-size: 15px;
 }

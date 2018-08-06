@@ -1,2 +1,2 @@
 export * from './product';
-export * from './books';
+export * from './favorites';
