@@ -11,13 +11,15 @@ Front-End
 
 Server-Side
 
-★★★★☆ Node (Express)
+★★★★☆ Node
 <br>
 ★★★☆☆ Ruby on Rails
 <br>
 ★★★☆☆ Golang
 <br>
-★★★☆☆ CakePHP
+★★★☆☆ PHP
+<br>
+★★☆☆☆ Python
 
 
 AWS
