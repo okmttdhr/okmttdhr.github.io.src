@@ -1,5 +1,5 @@
 
-export const favoriteLinks = [
+export const favoriteBooks = [
   {
     label: 'Code Complete',
     to: 'http://amzn.to/2lZo5Io',
@@ -51,5 +51,16 @@ export const favoriteLinks = [
   {
     label: 'とんび',
     to: 'http://amzn.to/2CMeDTe',
+  },
+];
+
+export const favoriteFoods = [
+  {
+    label: 'シゲキックス',
+    to: 'https://www.uha-mikakuto.co.jp/catalog/gummy/index.html#gummy01',
+  },
+  {
+    label: 'Taco',
+    to: 'https://www.youtube.com/watch?v=WFp9D_Eue9M',
   },
 ];
