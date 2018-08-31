@@ -1,4 +1,4 @@
-I’m okmttdhr, a JavaScript Developer. I hate winter for some reason, so I’ve decided to work 100% remotely and escape from that. Love to write some code and travel.
+I’m okmttdhr, a software engineer. I hate winter for some reason, so I’ve decided to work 100% remotely and escape from that. Love to write some code and travel.
 
 
 SKILLS
