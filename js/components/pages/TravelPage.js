@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import PhotoSwipe from 'photoswipe';
 import utilsMarkdown from 'utils/markdown';
 import MarkDown from 'components/MarkDown';
 
