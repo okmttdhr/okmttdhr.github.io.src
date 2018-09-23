@@ -23,7 +23,7 @@ Server-Side
 
 AWS
 
-★★★☆☆ <a href="https://bit.ly/2AKe3VZ" target="\_blank">AWS General</a>
+★★★☆☆ <a href="https://bit.ly/2xHecoD" target="\_blank">AWS General</a>
 <br>
 ★★★★☆ AWS Lambda (Serverless Framework, Apex, AWS SAM, with Node, Golang, Python)
 <br>
