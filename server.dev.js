@@ -12,7 +12,7 @@ new WebpackDevServer(webpack(config), { // Start a server
   inline: false,
   historyApiFallback: true,
   quiet: false // Without logging
-}).listen(3000, 'localhost', function (err, result) {
+}).listen(3000, '0.0.0.0', function (err, result) {
   if (err) {
     console.log(err);
   } else {

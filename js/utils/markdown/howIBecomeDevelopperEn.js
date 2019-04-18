@@ -4,47 +4,40 @@ I’m okmttdhr, a software engineer. I hate winter for some reason, so I’ve de
 
 #### SKILLS
 
-Front-End
+##### Front-End
 
-★★★★★ <a href="https://github.com/okmttdhr/frontend-libraries" target="\_blank">libraries I use</a>
+★★★★☆ Frameworks (Next.js, Nuxt.js)
+<br>
+★★★★★ Views (React, Angular, Vue.js) 
+<br>
+★★★★★ State Management (Flux, Redux, RxJS) 
+<br>
+★★★★☆ Static Type Checker (TypeScript, Flow) 
+<br>
+★★★★☆ Bundler (webpack) 
+<br>
+★★★★★ Styles (CSS in JS, CSS Modules, BEM) 
+<br>
+★★★★★ Unit Testing (Jest, Enzyme, ReactTestUtils, Mocha, AVA)
+<br>
+★★★★★ UI Testing (Storybook, Karma) 
+<br>
+★★★★★ UI Documentation (Storybook) 
 
-
-Back-End
+##### Back-End
 
 ★★★★☆ Node
 <br>
-★★★☆☆ Ruby on Rails
-<br>
 ★★★☆☆ Golang
-<br>
-★★★☆☆ PHP
-<br>
-★★☆☆☆ Python
 
-
-AWS
+##### AWS
 
 ★★★☆☆ AWS General
 <br>
-★★★★☆ AWS Lambda (Serverless Framework, Apex, AWS SAM, with Node, Golang, Python)
-<br>
-★★★☆☆ Amazon AI (Rekognition, Polly, Lex, Machine Learning)
-<br>
-★★★☆☆ Amazon Connect
-<br>
-★★☆☆☆ AWS IoT
+★★★★☆ AWS Lambda
 
 
-Others
-
-★★★☆☆ Mobile Apps (React Native, NativeScript)
-<br>
-★★★☆☆ Firebase
-<br>
-★☆☆☆☆ Machine Learning
-
-
-#### CERTIFICATION
+##### CERTIFICATION
 
 <a href="https://bit.ly/2xHecoD" target="\_blank">AWS Certified Solutions Architect - Professional</a>
 
