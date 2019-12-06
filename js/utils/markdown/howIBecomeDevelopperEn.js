@@ -1,28 +1,13 @@
 export const howIBecomeDevelopperEn = `
-I’m okmttdhr, a software engineer. I hate winter for some reason, so I’ve decided to work 100% remotely and escape from that. Love to write some code and travel.
+A software engineer who hate winter for some reason, love to write some code and travel.
 
 
 #### SKILLS
 
 ##### Front-End
 
-★★★★☆ Frameworks (Next.js, Nuxt.js)
+★★★★☆ Front-End General
 <br>
-★★★★★ Views (React, Angular, Vue.js) 
-<br>
-★★★★★ State Management (Flux, Redux, RxJS) 
-<br>
-★★★★☆ Static Type Checker (TypeScript, Flow) 
-<br>
-★★★★☆ Bundler (webpack) 
-<br>
-★★★★★ Styles (CSS in JS, CSS Modules, BEM) 
-<br>
-★★★★★ Unit Testing (Jest, Enzyme, ReactTestUtils, Mocha, AVA)
-<br>
-★★★★★ UI Testing (Storybook, Karma) 
-<br>
-★★★★★ UI Documentation (Storybook) 
 
 ##### Back-End
 

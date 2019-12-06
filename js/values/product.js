@@ -1,6 +1,14 @@
 
 export const productLinksCode = [
   {
+    label: 'VSCode (TypeScript)',
+    to: 'https://github.com/pulls?utf8=%E2%9C%93&q=author:okmttdhr+-user:okmttdhr+is:public+repo:microsoft/vscode+',
+  },
+  {
+    label: 'IoT Back-End with Lambda and DynamoDB (TypeScript)',
+    to: 'https://github.com/okmttdhr/iot-with-lambda-and-dynamodb',
+  },
+  {
     label: 'Front-End Libraries I use (Front-End)',
     to: 'https://github.com/okmttdhr/frontend-libraries',
   },
@@ -9,7 +17,7 @@ export const productLinksCode = [
     to: 'https://github.com/okmttdhr/express-rest-api-2018',
   },
   {
-    label: 'Create RDS with Lambda, EC2 using Terraform (AWS)',
+    label: 'RDS with Lambda, EC2 using Terraform (AWS)',
     to: 'https://github.com/okmttdhr/terraform-rds',
   },
   {
@@ -46,6 +54,14 @@ export const productLinksArticle = [
   {
     label: '新人プログラマの時に知っておきたかったハマったときのフローチャートと基本思考 (Problem Solving)',
     to: 'https://blog.mmmcorp.co.jp/blog/2017/04/24/problem-solving/',
+  },
+  {
+    label: 'JavaScriptの同時実行モデルについて (Front-End)',
+    to: 'https://qiita.com/okmttdhr/items/dc3cfd0e12de91553fe6',
+  },
+  {
+    label: 'Nuxt.jsの新規プロジェクトでいい感じのテスト環境をつくる@2018 (Fron-End)',
+    to: 'https://qiita.com/okmttdhr/items/48e8d4db1a7827d44ec4',
   },
   {
     label: 'Node + ExpressでAPI開発をする時の開発環境 (Node)',
