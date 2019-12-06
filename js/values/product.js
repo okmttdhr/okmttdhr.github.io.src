@@ -1,8 +1,8 @@
 
 export const productLinksCode = [
   {
-    label: 'VSCode (TypeScript)',
-    to: 'https://github.com/pulls?utf8=%E2%9C%93&q=author:okmttdhr+-user:okmttdhr+is:public+repo:microsoft/vscode+',
+    label: 'OSS Contribution',
+    to: 'https://github.com/pulls?utf8=%E2%9C%93&q=author%3Aokmttdhr+-user%3Aokmttdhr+is%3Apublic',
   },
   {
     label: 'IoT Back-End with Lambda and DynamoDB (AWS Lambda)',
