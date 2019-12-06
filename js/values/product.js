@@ -5,7 +5,7 @@ export const productLinksCode = [
     to: 'https://github.com/pulls?utf8=%E2%9C%93&q=author:okmttdhr+-user:okmttdhr+is:public+repo:microsoft/vscode+',
   },
   {
-    label: 'IoT Back-End with Lambda and DynamoDB (TypeScript)',
+    label: 'IoT Back-End with Lambda and DynamoDB (AWS Lambda)',
     to: 'https://github.com/okmttdhr/iot-with-lambda-and-dynamodb',
   },
   {
@@ -17,7 +17,7 @@ export const productLinksCode = [
     to: 'https://github.com/okmttdhr/express-rest-api-2018',
   },
   {
-    label: 'RDS with Lambda, EC2 using Terraform (AWS)',
+    label: 'RDS with Lambda, EC2 using Terraform (AWS Lambda)',
     to: 'https://github.com/okmttdhr/terraform-rds',
   },
   {
@@ -124,7 +124,7 @@ export const productLinksArticle = [
     to: 'https://blog.mmmcorp.co.jp/blog/2016/10/27/working-effectively-with-legacy-code/',
   },
   {
-    label: 'Amazon Connectで担当者直通電話システムの開発 (Amazon Connect)',
+    label: 'Amazon Connectで担当者直通電話システムの開発 (AWS)',
     to: 'https://blog.mmmcorp.co.jp/blog/2017/11/09/amazon-connect-customer-support/',
   },
   {
