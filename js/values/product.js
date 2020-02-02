@@ -13,7 +13,7 @@ export const productLinksCode = [
     to: 'https://github.com/okmttdhr/iot-with-lambda-and-dynamodb',
   },
   {
-    label: 'Express Rest API 2018 (Node)',
+    label: 'Express REST API 2018 (Node)',
     to: 'https://github.com/okmttdhr/express-rest-api-2018',
   },
   {
@@ -107,7 +107,7 @@ export const productLinksArticleSub = [
     to: 'http://blog.mmmcorp.co.jp/blog/2015/09/11/work-cation-remote-work/',
   },
   {
-    label: 'Checklist for Remote Working (Remote Working)',
+    label: 'Checklist for Remote Working',
     to: 'https://github.com/okmttdhr/remote-work-check-list',
   },
 ];
