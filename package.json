@@ -7,9 +7,10 @@
     "test": "mocha --compilers js:babel-core/register --recursive",
     "test:watch": "npm test -- --watch",
     "start": "cross-env NODE_ENV=development node server.dev.js",
-    "build": "npm run test && cross-env NODE_ENV=production webpack --config webpack.prod.config.js --progress --colors -p",
+    "build": "yarn test && cross-env NODE_ENV=production webpack --config webpack.prod.config.js --progress --colors -p",
     "serve": "cross-env NODE_ENV=production node server.prod.js",
-    "deploy": "npm run build && cd build && git add . && git commit -m 'update' && git push origin master -f"
+    "update": "git add --all && git commit -m 'update' && git push origin master",
+    "deploy": "yarn update && yarn build && cd build && git add . && git commit -m 'update' && git push origin master -f"
   },
   "repository": {
     "type": "git",

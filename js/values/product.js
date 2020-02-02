@@ -9,10 +9,6 @@ export const productLinksCode = [
     to: 'https://github.com/okmttdhr/iot-with-lambda-and-dynamodb',
   },
   {
-    label: 'Front-End Libraries I use (Front-End)',
-    to: 'https://github.com/okmttdhr/frontend-libraries',
-  },
-  {
     label: 'Express Rest API 2018 (Node)',
     to: 'https://github.com/okmttdhr/express-rest-api-2018',
   },
@@ -36,18 +32,6 @@ export const productLinksCode = [
     label: 'YouTuber年表',
     to: 'https://okmttdhr.github.io/youtubers-timeline-in-japan/'
   },
-  {
-    label: '3D Fire (three.js)',
-    to: 'https://github.com/okmttdhr/threejs-fire',
-  },
-  {
-    label: 'Checklist for Remote Working (Remote Working)',
-    to: 'https://github.com/okmttdhr/remote-work-check-list',
-  },
-  {
-    label: 'Cu-hacker (Ruby on Rails, jQuery)',
-    to: 'https://cu-hacker.com/',
-  },
 ];
 
 export const productLinksArticle = [
@@ -62,10 +46,6 @@ export const productLinksArticle = [
   {
     label: 'Nuxt.jsの新規プロジェクトでいい感じのテスト環境をつくる@2018 (Fron-End)',
     to: 'https://qiita.com/okmttdhr/items/48e8d4db1a7827d44ec4',
-  },
-  {
-    label: 'Node + ExpressでAPI開発をする時の開発環境 (Node)',
-    to: 'https://blog.mmmcorp.co.jp/blog/2018/05/09/node-express/',
   },
   {
     label: '2017年、新規にJavaScriptを書くならどんな設計をするか (Front-End)',
@@ -100,40 +80,8 @@ export const productLinksArticle = [
     to: 'http://qiita.com/okmttdhr/items/4197e7f5bc7fe737a1be'
   },
   {
-    label: 'ReduxをREST APIと使う時の命名のコツ (Redux)',
-    to: 'https://blog.mmmcorp.co.jp/blog/2017/08/09/redux-with-rest-api/',
-  },
-  {
-    label: 'RxJSを例とした独学の10ステップ (RxJS)',
-    to: 'https://blog.mmmcorp.co.jp/blog/2017/01/25/learn-rxjs/',
-  },
-  {
-    label: 'Karmaで行なっていたUIテストにStorybookを導入した (Front-End, Testing)',
-    to: 'https://blog.mmmcorp.co.jp/blog/2017/10/04/storybook/',
-  },
-  {
-    label: 'React VRについて調べてみた (React, three.js, VR)',
-    to: 'https://blog.mmmcorp.co.jp/blog/2017/03/24/ReactVR/',
-  },
-  {
-    label: '2016年JSハイブリッドアプリの動向をまとめてみた (Mobile App)',
-    to: 'https://blog.mmmcorp.co.jp/blog/2016/04/08/hybrid-app/',
-  },
-  {
     label: 'レガシーコード改善ガイド内容メモ (Design Technique)',
     to: 'https://blog.mmmcorp.co.jp/blog/2016/10/27/working-effectively-with-legacy-code/',
-  },
-  {
-    label: 'Amazon Connectで担当者直通電話システムの開発 (AWS)',
-    to: 'https://blog.mmmcorp.co.jp/blog/2017/11/09/amazon-connect-customer-support/',
-  },
-  {
-    label: 'NativeScriptでプッシュ通知を実装 (NativeScript)',
-    to: 'https://blog.mmmcorp.co.jp/blog/2016/11/24/NativeScriptPushNotification/',
-  },
-  {
-    label: 'NativeScript開発でハマった時の対応まとめ (NativeScript)',
-    to: 'https://blog.mmmcorp.co.jp/blog/2016/06/10/ns/',
   },
 ];
 
@@ -157,5 +105,9 @@ export const productLinksArticleSub = [
   {
     label: 'リモートワーカーへ、work-cationのススメ',
     to: 'http://blog.mmmcorp.co.jp/blog/2015/09/11/work-cation-remote-work/',
+  },
+  {
+    label: 'Checklist for Remote Working (Remote Working)',
+    to: 'https://github.com/okmttdhr/remote-work-check-list',
   },
 ];
