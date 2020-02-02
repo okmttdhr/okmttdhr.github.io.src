@@ -5,6 +5,10 @@ export const productLinksCode = [
     to: 'https://github.com/pulls?utf8=%E2%9C%93&q=author%3Aokmttdhr+-user%3Aokmttdhr+is%3Apublic',
   },
   {
+    label: 'fp-minimal (Functional Programming)',
+    to: 'https://github.com/okmttdhr/fp-minimal',
+  },
+  {
     label: 'IoT Back-End with Lambda and DynamoDB (AWS Lambda)',
     to: 'https://github.com/okmttdhr/iot-with-lambda-and-dynamodb',
   },
@@ -40,20 +44,16 @@ export const productLinksArticle = [
     to: 'https://blog.mmmcorp.co.jp/blog/2017/04/24/problem-solving/',
   },
   {
+    label: 'フロントエンドのテストについて考える (Front-End, Testing)',
+    to: 'https://qiita.com/okmttdhr/items/c1e80353928e121c4761',
+  },
+  {
     label: 'JavaScriptの同時実行モデルについて (Front-End)',
     to: 'https://qiita.com/okmttdhr/items/dc3cfd0e12de91553fe6',
   },
   {
-    label: 'Nuxt.jsの新規プロジェクトでいい感じのテスト環境をつくる@2018 (Fron-End)',
-    to: 'https://qiita.com/okmttdhr/items/48e8d4db1a7827d44ec4',
-  },
-  {
     label: '2017年、新規にJavaScriptを書くならどんな設計をするか (Front-End)',
     to: 'https://blog.mmmcorp.co.jp/blog/2016/12/22/JavaScript/',
-  },
-  {
-    label: 'フロントエンドのテストに真面目に向き合う (Front-End, Testing)',
-    to: 'https://qiita.com/okmttdhr/items/cc58e83c259aa0049538',
   },
   {
     label: 'JavaScriptでDeep Learning (Machine Learning)',
@@ -80,7 +80,7 @@ export const productLinksArticle = [
     to: 'http://qiita.com/okmttdhr/items/4197e7f5bc7fe737a1be'
   },
   {
-    label: 'レガシーコード改善ガイド内容メモ (Design Technique)',
+    label: 'レガシーコード改善ガイド内容メモ (Design)',
     to: 'https://blog.mmmcorp.co.jp/blog/2016/10/27/working-effectively-with-legacy-code/',
   },
 ];
