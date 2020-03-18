@@ -5,6 +5,10 @@ export const productLinksCode = [
     to: 'https://github.com/pulls?utf8=%E2%9C%93&q=author%3Aokmttdhr+-user%3Aokmttdhr+is%3Apublic',
   },
   {
+    label: 'Example of gRPC-Web + React Hooks + Go (React, Go)',
+    to: 'https://github.com/okmttdhr/grpc-web-react-hooks',
+  },
+  {
     label: 'fp-minimal (Functional Programming)',
     to: 'https://github.com/okmttdhr/fp-minimal',
   },
@@ -72,7 +76,7 @@ export const productLinksArticle = [
     to: 'https://blog.mmmcorp.co.jp/blog/2017/10/13/amazon-ai/',
   },
   {
-    label: 'AWS SAMとGolangでLambda関数の開発環境をつくる (AWS Lambda, Golang)',
+    label: 'AWS SAMとGolangでLambda関数の開発環境をつくる (AWS Lambda, Go)',
     to: 'https://blog.mmmcorp.co.jp/blog/2018/06/08/aws-sam-go/',
   },
   {
