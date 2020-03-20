@@ -2,4 +2,4 @@ update:
 	git add --all && git commit -m 'update' && git push origin master -f
 
 deploy:
-	cd build && make update
+	cp index.html build && cd build && git add --all && git commit -m 'update' && git push origin master -f
