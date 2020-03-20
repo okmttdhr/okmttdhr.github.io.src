@@ -1,5 +1,1 @@
-node_modules
 .DS_Store
-js/bundle.js
-js/bundle.min.js
-npm-debug.log
