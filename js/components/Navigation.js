@@ -6,10 +6,6 @@ export class Navigation extends Component {
   constructor() {
     super();
     this.links = [
-      {
-        label: 'favorites',
-        to: '/favorites',
-      },
     ];
   }
 
