@@ -31,7 +31,6 @@ openSansObserver.check().then(() => {
 
 // Import the pages
 import HomePage from './components/pages/HomePage';
-import ProductPage from './components/pages/ProductPage';
 import FavoritesPage from './components/pages/FavoritesPage';
 import TravelPage from './components/pages/TravelPage';
 import NotFound from './components/pages/NotFound';
@@ -59,7 +58,6 @@ ReactDOM.render(
     <Router history={browserHistory}>
       <Route component={App}>
         <Route path="/" component={HomePage} />
-        <Route path="products" component={ProductPage} />
         <Route path="travel" component={TravelPage}>
           <Route path=":id" component={TravelPage} />
         </Route>
