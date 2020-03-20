@@ -1,1 +1,0 @@
-export const whereIveBeenTo = `Google Local Guide, Level 6. See all the photos here <a class="SocialBtns__btn SocialBtns__btn--gp" href="https://photos.app.goo.gl/hFOY3uv2kJIBPH9d2" target="_blank"></a> , and updates <a class="SocialBtns__btn SocialBtns__btn--ig" href="https://www.instagram.com/okmttdhr/" target="_blank"></a> .`;
