@@ -1,7 +1,0 @@
-.Navigation {
-  margin: 30px auto;
-}
-
-.Navigation__linkToPage {
-  @mixin linkToPage;
-}

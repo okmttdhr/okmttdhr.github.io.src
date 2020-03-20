@@ -1,8 +1,0 @@
-.House__content {
-  @mixin baseContent;
-}
-
-.House__content__comingSoonText {
-  @mixin basicText;
-  text-align: center;
-}

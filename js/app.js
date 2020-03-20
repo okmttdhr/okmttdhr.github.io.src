@@ -38,9 +38,6 @@ import TravelPage from './components/pages/TravelPage';
 import NotFound from './components/pages/NotFound';
 import App from './components/App';
 
-// Import the CSS file, which HtmlWebpackPlugin transfers to the build folder
-import '../css/main.css';
-
 // Create the store with middleware
 import rootReducer from './reducers/rootReducer';
 const browserHistory = useSimpleScroll(createHistory)({queryKey: false});
