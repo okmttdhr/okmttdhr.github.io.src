@@ -7,18 +7,6 @@ export class Navigation extends Component {
     super();
     this.links = [
       {
-        label: 'me',
-        to: '/about',
-      },
-      {
-        label: 'products',
-        to: '/products',
-      },
-      {
-        label: 'traveling',
-        to: '/travel',
-      },
-      {
         label: 'favorites',
         to: '/favorites',
       },
