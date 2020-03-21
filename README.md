@@ -1,7 +1,5 @@
 # okmttdhr.github.io
 
-## Command
-
 ```bash
-yarn deploy
+make deploy
 ```
